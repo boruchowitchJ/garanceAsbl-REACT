@@ -3,6 +3,7 @@ const Garcons= () => {
         <div className="container_pourvous">
            <div className="containersmall"> <h1> Garcons </h1>
             <h2>A partir de 14 ans</h2></div>
+            <img className="image_18" src='../assets/images/garcon.jpg'alt="" />
            <div className="containersmall"> <p>
                 Les garçons se retrouvent souvent dans des situations dangereuses parce que l’on les met au défi de montrer qu’ils sont des « vrais hommes ». Dans la période de l’adolescence, il est d’autant plus important de les accompagner à la recherche de leur identité. Garance a réuni une série d’outils et de techniques pour eux qui permettent de se réaliser tout en respectant autrui.
 

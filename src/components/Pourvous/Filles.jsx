@@ -1,8 +1,11 @@
 const Filles = () => {
     return (
         <div className="container_pourvous">
+            
             <div className="containersmall"><h1> Filles </h1>
-            <h2>à partir de 8 ans</h2></div>
+            <h2>à partir de 8 ans</h2>    
+            </div>
+            <img className="image_18" src='../assets/images/fille.jpg'alt="" />
             <div className="containersmall"><p>
                 Les filles peuvent être confrontées à des agressions de la part d’inconnus, d’autres enfants et jeunes ou, le plus souvent, de la part d’adultes proches. Leur éducation les prépare souvent mal à faire face à ces situations. Les attentes qu’on leur porte par rapport à leur gentillesse, politesse et soumission à l’autorité adulte les rendent plus vulnérables encore.
 

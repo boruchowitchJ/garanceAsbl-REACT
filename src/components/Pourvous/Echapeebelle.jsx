@@ -3,9 +3,11 @@ import './Pourvous.css';
 const Echapees = () => {
     return (
         <div className="container_pourvous">
-           <div className="containersmall"> <h1> Echappées Belles</h1>
+            <img className="image_18" src='../assets/images/femme2.png'alt="" />
+            <div className="containersmall"> <h1> Echappées Belles</h1>
             <h2>L’autodéfense est tout ce qui rend nos vies plus sûres.</h2>
             </div>
+            
             <div className="containersmall">
             <p>
                 Dans ce forum, vous pouvez échanger vos expériences de réussite dans des situations désagréables ou même dangereuses. Vous y trouverez des histoires écrites et racontées.

@@ -4,7 +4,7 @@
 
 .container_pourvous {
     margin-top: 15%;
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -16,6 +16,13 @@
     background: whitesmoke;
     border-radius: 8px;
     box-shadow: 0 0 0 1px rgba(53, 72, 91, .07), 0 2px 2px rgba(0, 0, 0, .01), 0 4px 4px rgba(0, 0, 0, .02), 0 10px 8px rgba(0, 0, 0, .03), 0 15px 15px rgba(0, 0, 0, .03), 0 30px 30px rgba(0, 0, 0, .04), 0 70px 65px rgba(0, 0, 0, .05);
+}
+.container_pourvous h1{
+    color: #900c27;
+    text-transform: uppercase;
+}
+.container_pourvous h2{
+    color: #F8CD42;
 }
 .list_echapee {
     width: 100%;
