@@ -6,7 +6,7 @@ const Garance18 = () => {
   return (
     <div className="container_pourvous">
         <h1> Garance -18 </h1>
-        <h2></h2>
+        
         <img className="image_18" src='../assets/images/18.jpg'alt="" />
         <div className="containersmall" >
           

@@ -1,21 +1,28 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Oswald:wght@300&display=swap');
+
+body {
     color: black;
+    /* background-color:#F8CD42; */
+    font-family: 'Oswald';
 }
 
+
 .container_pourvous {
-    margin-top: 15%;
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: relative;
-    transition: 0.3s ease-in-out;
-    font-size: 16px;
-    margin-bottom: 100px;
-    padding: 24px;
-    background: whitesmoke;
-    border-radius: 8px;
-    box-shadow: 0 0 0 1px rgba(53, 72, 91, .07), 0 2px 2px rgba(0, 0, 0, .01), 0 4px 4px rgba(0, 0, 0, .02), 0 10px 8px rgba(0, 0, 0, .03), 0 15px 15px rgba(0, 0, 0, .03), 0 30px 30px rgba(0, 0, 0, .04), 0 70px 65px rgba(0, 0, 0, .05);
+    margin-top: 10%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  font-size: 16px;
+  margin-bottom: 100px;
+  padding: 24px;
+  background: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(53, 72, 91, .07), 0 2px 2px rgba(0, 0, 0, .01), 0 4px 4px rgba(0, 0, 0, .02), 0 10px 8px rgba(0, 0, 0, .03), 0 15px 15px rgba(0, 0, 0, .03), 0 30px 30px rgba(0, 0, 0, .04), 0 70px 65px rgba(0, 0, 0, .05);
+  margin-left: 20%;
+
 }
 .container_pourvous h1{
     color: #900c27;
@@ -35,6 +42,10 @@ flex-direction: column;
 
 .image_18 {
     width: 50%;
+}
+.image_garance{
+    width: 50%;
+    margin-left: 25%;
 }
 .containersmall{
     display: flex;
@@ -57,4 +68,8 @@ flex-direction: column;
 
 .Garcons:hover {
     color: #F8CD42;
+}
+.list_echapee{
+    width: 100%;
+    list-style: none;
 }

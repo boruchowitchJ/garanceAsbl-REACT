@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 
 const Nav = () => {
     return (
-        <header>
+       <> <header>
             <div><img className="logoNav" src='./assets/images/garancelogo.png'></img></div>
             <nav className='NavBar'>
                 <ul className='list_nav'>
@@ -64,9 +64,11 @@ const Nav = () => {
 
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
-                <Outlet />
+                
             </nav>
+            
         </header>
+        <Outlet /></>
     )
 
 }

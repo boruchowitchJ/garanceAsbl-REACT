@@ -3,17 +3,20 @@
 header{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100.8%;
+    height: 79px;
     justify-content: space-evenly;
-    
-    
+    background-color: #f9f6f789;
+    margin-top: -10px;
+    margin-left: -12px;
+  
   }
   nav{
     width: 100%;
     margin: 0 auto;
     position: sticky;
     top: 0px;
-    font-family: 'Oswald';
+    
 }
 
 nav ul{
@@ -77,5 +80,6 @@ nav > ul li:hover .sous{
 
 
 .logoNav{
-    width: 50%;
+    width: 30%;
+    padding: 5px;
 }
