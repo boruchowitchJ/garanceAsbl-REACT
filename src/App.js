@@ -4,6 +4,7 @@ import Echapees from './components/Pourvous/Echapeebelle';
 import Garance18 from './components/Pourvous/Garance-18';
 import Filles from './components/Pourvous/Filles'
 import Garcon from './components/Pourvous/Garcon'
+import Enfantcapable from "./components/Pourvous/Enfantcapable";
 import Garance55 from './components/Pourvous/Garance+55';
 import GaranceFemme from './components/Pourvous/GaranceFemme';
 import GaranceHomme from './components/Pourvous/GaranceHomme';
@@ -33,6 +34,7 @@ function App() {
       <Garance18/>
       <Filles/>
       <Garcon/>
+      <Enfantcapable/>
       <Garance55/>
       <GaranceFemme/>
       <GaranceHomme/>

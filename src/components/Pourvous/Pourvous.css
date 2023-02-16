@@ -52,24 +52,26 @@ flex-direction: column;
     flex-direction: column;
     
 }
-.Filles {
+.link {
     color: #900c27;
     text-decoration: none;
+    font-weight: 600;
 }
 
-.Filles:hover {
+.link:hover {
     color: #F8CD42;
 }
 
-.Garcons {
-    color: #900c27;
-    text-decoration: none;
-}
 
-.Garcons:hover {
-    color: #F8CD42;
-}
 .list_echapee{
     width: 100%;
     list-style: none;
+}
+.capable{
+    display: flex;
+    justify-content: space-evenly;
+    width: 32%;
+}
+.image_logo_evras{
+    padding:10px
 }

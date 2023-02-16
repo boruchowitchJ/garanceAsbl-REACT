@@ -17,6 +17,7 @@ import Statut from './components/Presentation/Statut';
 import Quisommenous from './components/Presentation/QuisommeNous';
 import Filles from './components/Pourvous/Filles';
 import Garcons from './components/Pourvous/Garcon';
+import Enfantcapable from "./components/Pourvous/Enfantcapable";
 
 
 
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="Garance18" element={<Garance18 />} />
           <Route path="Filles" element={<Filles />} />
           <Route path="Garcons" element={<Garcons />} />
+          <Route path="enfantcapable" element={<Enfantcapable/>} />
 
 
           <Route path="Garance55" element={<Garance55 />} />
