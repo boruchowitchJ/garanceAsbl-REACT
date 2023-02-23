@@ -23,6 +23,7 @@ import Positionnement from './components/Presentation/Positionnement';
 import Reseau from './components/Presentation/Reseau';
 import Statut from './components/Presentation/Statut';
 import Quisommenous from './components/Presentation/QuisommeNous';
+import Ecrits from "./components/Pourvous/TemoignagesEcrits";
 
 
 
@@ -36,6 +37,7 @@ export default function App() {
           <Route index element={<Accueil />} />
           <Route path="echappesbelles" element={<EchapeeBelle />} />
           <Route path="audio" element={<AudioPlayer />} />
+          <Route path="ecrits" element={<Ecrits />} />
 
           <Route path="Garance18" element={<Garance18 />} />
           <Route path="Filles" element={<Filles />} />
