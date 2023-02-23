@@ -17,14 +17,14 @@ const Nav = () => {
                                 <li><a href="#">Echapees belles</a></li>
                               </ul> */}
                             </li>
-                            <li><Link to="/GaranceFemme ">GaranceFemme </Link>
+                            <li><Link to="/GaranceFemme ">Garance Femme </Link>
                             {/* <ul className="">
                                 <li><a href="#">Echapees belles</a></li>
                                 <li> <a href="#">Echapees belles</a></li>
                                 <li><a href="#">Echapees belles</a></li>
                               </ul> */}
                             </li>
-                            <li><Link to="/GaranceHomme  ">GaranceHomme </Link>
+                            <li><Link to="/GaranceHomme  ">Garance Homme </Link>
                             {/* <ul className="">
                                 <li><a href="#">Echapees belles</a></li>
                                 <li> <a href="#">Echapees belles</a></li>
@@ -33,10 +33,10 @@ const Nav = () => {
                               </li>
                             <li><Link to="/Garance55  ">Garance +55  </Link></li>
                             <li><Link to="/Garance18 ">Garance -18 </Link></li>
-                            <li><Link to="/GarancePro">GarancePro</Link></li>
+                            <li><Link to="/GarancePro">Garance Pro</Link></li>
                         </ul>
                     </li>
-                    <li className="deroulant"><Link to="/QuisommeNous">QuisommeNous</Link>
+                    <li className="deroulant"><Link to="/QuisommeNous">Qui sommes Nous?</Link>
                         <ul className='sous'>
                             <li><Link to="/Histoire">Histoire</Link></li>
                             <li><Link to="/Positionnement">Positionnement</Link></li>
