@@ -9,14 +9,7 @@ import  Contact from './components/Contact';
 
 
 import Echapees from './components/Pourvous/Echapeebelle';
-import MultiPlayer from './components/Pourvous/TemoignagesAudio';
-import Ecrits from './components/Pourvous/TemoignagesEcrits';
-
 import Garance18 from './components/Pourvous/Garance-18';
-import Filles from './components/Pourvous/Filles'
-import Garcon from './components/Pourvous/Garcon'
-import Enfantcapable from "./components/Pourvous/Enfantcapable";
-
 import Garance55 from './components/Pourvous/Garance+55';
 import GaranceFemme from './components/Pourvous/GaranceFemme';
 import GaranceHomme from './components/Pourvous/GaranceHomme';
@@ -32,25 +25,15 @@ import Quisommenous from './components/Presentation/QuisommeNous';
 
 
 
-
-
-
-
 function App() {
   return (
     <div className="App">
-      <header className="App-header"><NavBar />     
-      </header>
-   <Accueil />
+      {/* IL NE FAUT NORMALEMENT RIEN ECRIRE ICI VU QUE TOUT SE FAIT DANS LE ROUTAGE ON DEMANDERA A AUDE MAIS J AI VU QUE C 44ETAIT UN ERREUR DE MA PART */}
+      {/* <header className="App-header"><NavBar />     
+      </header> */}
+   {/* <Accueil />
       <Echapees />
-     <MultiPlayer/>
-     <Ecrits/>
-
-      <Garance18/>
-      <Filles/>
-      <Garcon/>
-      <Enfantcapable/>
-      
+      <Garance18/>    
       <Garance55/>
       <GaranceFemme/>
       <GaranceHomme/>
@@ -61,7 +44,7 @@ function App() {
       <Positionnement/>
       <Statut/>
       <Reseau/>
-      <Contact />
+      <Contact /> */}
       
     </div>
   );

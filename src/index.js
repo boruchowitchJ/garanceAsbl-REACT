@@ -4,10 +4,16 @@ import Layout from "./components/NavBar";
 import Accueil from "./components/Accueil";
 import EchapeeBelle from "./components/Pourvous/Echapeebelle";
 import AudioPlayer from './components/Pourvous/TemoignagesAudio';
-import Ecrits from './components/Pourvous/TemoignagesEcrits';
 import Garance18 from './components/Pourvous/Garance-18';
+import Filles from './components/Pourvous/Filles';
+import Garcons from './components/Pourvous/Garcon';
+import Enfantcapable from "./components/Pourvous/Enfantcapable";
 import Garance55 from './components/Pourvous/Garance+55';
 import GaranceFemme from './components/Pourvous/GaranceFemme';
+import Autodenfence from "./components/Pourvous/Autodefence";
+import Verbale from "./components/Pourvous/Verbale";
+import Entrainement from "./components/Pourvous/Entrainement";
+
 import GaranceHomme from './components/Pourvous/GaranceHomme';
 import GarancePro from './components/Pourvous/GarancePro';
 import Contact from "./components/Contact";
@@ -17,9 +23,8 @@ import Positionnement from './components/Presentation/Positionnement';
 import Reseau from './components/Presentation/Reseau';
 import Statut from './components/Presentation/Statut';
 import Quisommenous from './components/Presentation/QuisommeNous';
-import Filles from './components/Pourvous/Filles';
-import Garcons from './components/Pourvous/Garcon';
-import Enfantcapable from "./components/Pourvous/Enfantcapable";
+
+
 
 
 
@@ -31,9 +36,6 @@ export default function App() {
           <Route index element={<Accueil />} />
           <Route path="echappesbelles" element={<EchapeeBelle />} />
           <Route path="audio" element={<AudioPlayer />} />
-          <Route path="ecrits" element={<Ecrits />} />
-
-
 
           <Route path="Garance18" element={<Garance18 />} />
           <Route path="Filles" element={<Filles />} />
@@ -42,7 +44,14 @@ export default function App() {
 
 
           <Route path="Garance55" element={<Garance55 />} />
+
+
+
           <Route path="GaranceFemme" element={<GaranceFemme />} />
+          <Route path="auto" element={<Autodenfence />} />
+          <Route path="verbale" element={<Verbale />} />
+          <Route path="entrainement" element={<Entrainement />} />
+
           <Route path="GaranceHomme" element={<GaranceHomme />} />
           <Route path="GarancePro" element={<GarancePro />} />
 

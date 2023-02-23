@@ -18,7 +18,7 @@ const Echapees = () => {
                 Les petites astuces pour éviter la violence, les mots bien trouvés qui clouent le bec à l’agresseur, la fuite quand elle est possible, les façons dont on a pu trouver de l’aide, de la solidarité : Garance collectionne toutes ces petites richesses pour les partager, pour que chacune puisse en nspirer, et pour (re)prendre courage : les femmes sont parfois victimes de violence, mais <strong>elles ne sont pas démunies !</strong></p>
             
                 <Link className="link" to="/ecrits">➢ des témoignages écrits</Link>
-                <Link className="link" to="/audio">➢ des enregistrements sonores</Link>
+                <Link className="link" to="/audio">➢ des témoignages audios </Link>
                 ➢ un formulaire Témoignez ! pour vous permettre d’envoyer vos témoignages
             
            </div>

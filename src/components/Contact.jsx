@@ -55,7 +55,7 @@ const Presentation = () => {
                 setPresentation(`Bonjour,
                 je m'appelle ${inputs.firstname} ${inputs.lastname}, j'ai ${age} ans cette année.
                 Ma technologie back-end préférée est ${inputs.backEnd} et ma technologie front-end préférée est ${inputs.frontEnd} !
-                ${ (inputs.comment && inputs.comment != "") ? "Voici mes commantaires sur la formation " + inputs.comment  : "Je n'ai pas de commentaires à faire sur la formation"}
+                ${ (inputs.comment && inputs.comment !== "") ? "Voici mes commantaires sur la formation " + inputs.comment  : "Je n'ai pas de commentaires à faire sur la formation"}
                 ${ ( inputs.loveFormation ) ? "J'aime trop la formation ♥" : "Envie de crever 😐" }
                 `)
                 //On vérifie avec une ternaire si y'a des commentaires et si pas vide
@@ -64,7 +64,7 @@ const Presentation = () => {
     }
 
     return (
-        <div>
+        <div className="container_pourvous">
             <form onSubmit={validerForm} >
                 <div>
                     <label htmlFor="lastname">Nom</label>
