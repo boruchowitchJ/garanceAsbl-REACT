@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/NavBar";
 import Accueil from "./components/Accueil";
 import EchapeeBelle from "./components/Pourvous/Echapeebelle";
+import AudioPlayer from './components/Pourvous/TemoignagesAudio';
+import Ecrits from './components/Pourvous/TemoignagesEcrits';
 import Garance18 from './components/Pourvous/Garance-18';
 import Garance55 from './components/Pourvous/Garance+55';
 import GaranceFemme from './components/Pourvous/GaranceFemme';
@@ -28,6 +30,9 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Accueil />} />
           <Route path="echappesbelles" element={<EchapeeBelle />} />
+          <Route path="audio" element={<AudioPlayer />} />
+          <Route path="ecrits" element={<Ecrits />} />
+
 
 
           <Route path="Garance18" element={<Garance18 />} />

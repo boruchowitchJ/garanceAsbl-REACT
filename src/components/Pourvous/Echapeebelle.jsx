@@ -1,3 +1,4 @@
+import { Outlet, Link } from "react-router-dom";
 import './Pourvous.css';
 
 const Echapees = () => {
@@ -15,12 +16,13 @@ const Echapees = () => {
                 Une stratégie de défense n’est pas limitée à quelques coups de karaté (ou de Seito Boei, tant qu’on y est) bien placés.
 
                 Les petites astuces pour éviter la violence, les mots bien trouvés qui clouent le bec à l’agresseur, la fuite quand elle est possible, les façons dont on a pu trouver de l’aide, de la solidarité : Garance collectionne toutes ces petites richesses pour les partager, pour que chacune puisse en nspirer, et pour (re)prendre courage : les femmes sont parfois victimes de violence, mais <strong>elles ne sont pas démunies !</strong></p>
-            <ul className='list_echapee'>
-                <li>➢ des témoignages écrits</li>
-                <li>➢ des enregistrements sonores</li>
-                <li>➢ un formulaire Témoignez ! pour vous permettre d’envoyer vos témoignages</li>
-            </ul>
+            
+                <Link className="link" to="/ecrits">➢ des témoignages écrits</Link>
+                <Link className="link" to="/audio">➢ des enregistrements sonores</Link>
+                ➢ un formulaire Témoignez ! pour vous permettre d’envoyer vos témoignages
+            
            </div>
+           <Outlet />
         </div>
         
     )

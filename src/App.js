@@ -1,14 +1,28 @@
 import './App.css';
+
+
+
+
 import  NavBar from './components/NavBar';
+import Accueil from './components/Accueil';
+import  Contact from './components/Contact';
+
+
 import Echapees from './components/Pourvous/Echapeebelle';
+import MultiPlayer from './components/Pourvous/TemoignagesAudio';
+import Ecrits from './components/Pourvous/TemoignagesEcrits';
+
 import Garance18 from './components/Pourvous/Garance-18';
 import Filles from './components/Pourvous/Filles'
 import Garcon from './components/Pourvous/Garcon'
 import Enfantcapable from "./components/Pourvous/Enfantcapable";
+
 import Garance55 from './components/Pourvous/Garance+55';
 import GaranceFemme from './components/Pourvous/GaranceFemme';
 import GaranceHomme from './components/Pourvous/GaranceHomme';
 import GarancePro from './components/Pourvous/GarancePro';
+
+
 import Histoire from './components/Presentation/Histoire';
 import Partenariat from './components/Presentation/Partenariat';
 import Positionnement from './components/Presentation/Positionnement';
@@ -20,8 +34,6 @@ import Quisommenous from './components/Presentation/QuisommeNous';
 
 
 
-import  Contact from './components/Contact';
-import Accueil from './components/Accueil';
 
 
 function App() {
@@ -31,10 +43,14 @@ function App() {
       </header>
    <Accueil />
       <Echapees />
+     <MultiPlayer/>
+     <Ecrits/>
+
       <Garance18/>
       <Filles/>
       <Garcon/>
       <Enfantcapable/>
+      
       <Garance55/>
       <GaranceFemme/>
       <GaranceHomme/>
