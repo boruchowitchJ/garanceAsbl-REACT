@@ -23,6 +23,7 @@ import Reseau from './components/Presentation/Reseau';
 import Statut from './components/Presentation/Statut';
 import Quisommenous from './components/Presentation/QuisommeNous';
 
+import ViolencesConjugales from './components/Trouverdelaide/ViolencesConjugales';
 
 import Footer from './components/Footer';
 

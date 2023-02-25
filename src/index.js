@@ -26,6 +26,9 @@ import Quisommenous from './components/Presentation/QuisommeNous';
 import Ecrits from "./components/Pourvous/TemoignagesEcrits";
 
 
+import ViolencesConjugales from './components/Trouverdelaide/ViolencesConjugales';
+
+
 
 
 
@@ -63,6 +66,8 @@ export default function App() {
           <Route path="Reseau" element={<Reseau />} />
           <Route path="Statut" element={<Statut />} />
           <Route path="QuisommeNous" element={<Quisommenous />} />
+
+          <Route path="ViolencesConjugales" element={<ViolencesConjugales />} />
           
 
           <Route path="contact" element={<Contact />} />
