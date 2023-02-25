@@ -24,6 +24,9 @@ import Statut from './components/Presentation/Statut';
 import Quisommenous from './components/Presentation/QuisommeNous';
 
 
+import Footer from './components/Footer';
+
+
 
 function App() {
   return (
@@ -44,7 +47,11 @@ function App() {
       <Positionnement/>
       <Statut/>
       <Reseau/>
-      <Contact /> */}
+      <Contact />
+      <Footer/>
+      
+      */}
+
       
     </div>
   );
