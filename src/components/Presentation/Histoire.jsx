@@ -1,8 +1,9 @@
 const Histoire = () => {
   return ( 
   <div className="container_pourvous">
+    <h1>Histoire</h1>
     <div className="containersmall" >
-  <h1>Histoire</h1>
+  
     <p>
     Depuis 2000, plus de 3 500 femmes et filles (en Belgique, au Grand-Duché du Luxembourg, en France, au Portugal et au Mexique) ont appris à se protéger et à se défendre contre toutes les sortes de violence. Des dizaines de milliers de femmes ont découvert des instruments simples de prévention, par le biais des ateliers, des témoignages des Echappées Belles, de nos publications et de nos actions sifflets.C’est en octobre 2000 que Garance fut fondée par Irene Zeilinger, qui avait auparavant enseigné le Seito Boei, une technique d’autodéfense pour femmes et filles créée en Autriche, il y a une trentaine d’années. Depuis, l’association organise des stages de défense verbale et d’autodéfense pour femmes, collabore avec des maisons d’accueil, des associations féminines, des organisations d’éducation permanente et autres autorités locales.</p>
     <img className="image_garance" src='../assets/images/Garance.jpg'alt="" />
