@@ -4,7 +4,7 @@
 }
 
 /*& ABOUT VIOLENCES CONJUGALES *********************/
-/*~ BELGIQUE **************/
+
 .container-violences-conjugales{
     width: 100vw;
     font-family: 'poppinsextralight';
@@ -15,7 +15,7 @@
     flex-direction: column;
     align-items: center;
 }
-
+/*~ BELGIQUE **************/
 .violence-conjugales-belgique{
     width: 70%;
     background: whitesmoke;
@@ -143,3 +143,56 @@ ul{
     flex-direction: row;
     justify-content: space-around;
 }
+
+/*& ABOUT TOUT AUTRE FORME DE VIOLENCE *********************/
+
+.container-violences-autres{
+    width: 100%;
+    font-family: 'poppinsextralight';
+    background-color: #f6c667;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* height: 100vh; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*~ BELGIQUE **************/
+.violences-autres-belgique{
+    width: 70%;
+    background: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgba(53, 72, 91, .07), 0 2px 2px rgba(0, 0, 0, .01), 0 4px 4px rgba(0, 0, 0, .02), 0 10px 8px rgba(0, 0, 0, .03), 0 15px 15px rgba(0, 0, 0, .03), 0 30px 30px rgba(0, 0, 0, .04), 0 70px 65px rgba(0, 0, 0, .05);
+    padding: 3%;
+}
+.title-violence-sexuelle{
+    color: #900c27;
+    text-align: center;
+}
+.title-violence-autre{
+    color: #900c27;
+    text-align: center;
+}
+
+.violences-autres-belgique a{
+    color: #f6c667;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.violences-autres-belgique a:hover{
+    color: #900c27;
+}
+
+/*~ AUTRES **************/
+
+.violence-autres-autres{
+    width: 90%;
+    padding-top: 5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
