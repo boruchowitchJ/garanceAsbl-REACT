@@ -37,6 +37,7 @@ import Statut from './components/Presentation/Statut';
 
 
 import ViolencesConjugales from "./components/Trouverdelaide/ViolencesConjugales";
+import Comments from "./components/Pourvous/Comments";
 
 
 
@@ -48,6 +49,8 @@ export default function App() {
           <Route index element={<Accueil />} />
           <Route path="echappesbelles" element={<EchapeeBelle />} />
           <Route path="audio" element={<TemoignagesAudio />} />
+          <Route path="ecrits" element={<Comments />} />
+
 
 
 

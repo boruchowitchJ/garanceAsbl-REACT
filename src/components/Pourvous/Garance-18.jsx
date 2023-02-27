@@ -21,6 +21,9 @@ const Garance18 = () => {
 
           <Link className="link" to="/Garcons">Chez les garçons</Link>, Garance met plus d’accent sur la gestion et l’expression des émotions et la capacité de refuser la provocation. Mais bien sûr, des techniques de défense verbale et physique sont également au rendez-vous.</p>
       </div>
+      
+
+
       <Outlet />
     </div>
   )
