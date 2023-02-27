@@ -3,21 +3,36 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/NavBar";
 import Accueil from "./components/Accueil";
 import EchapeeBelle from "./components/Pourvous/Echapeebelle";
+import TemoignagesAudio from "./components/Pourvous/TemoignagesAudio"
+
 import Garance18 from './components/Pourvous/Garance-18';
+import Filles from './components/Pourvous/Filles';
+import Garcons from './components/Pourvous/Garcon';
+import Enfantcapable from "./components/Pourvous/Enfantcapable";
+
 import Garance55 from './components/Pourvous/Garance+55';
+
+
 import GaranceFemme from './components/Pourvous/GaranceFemme';
+
+
 import GaranceHomme from './components/Pourvous/GaranceHomme';
+
+
 import GarancePro from './components/Pourvous/GarancePro';
+
+
 import Contact from "./components/Contact";
+
+import Quisommenous from './components/Presentation/QuisommeNous';
 import Histoire from './components/Presentation/Histoire';
 import Partenariat from './components/Presentation/Partenariat';
 import Positionnement from './components/Presentation/Positionnement';
 import Reseau from './components/Presentation/Reseau';
 import Statut from './components/Presentation/Statut';
-import Quisommenous from './components/Presentation/QuisommeNous';
-import Filles from './components/Pourvous/Filles';
-import Garcons from './components/Pourvous/Garcon';
-import Enfantcapable from "./components/Pourvous/Enfantcapable";
+
+
+
 import ViolencesConjugales from "./components/Trouverdelaide/ViolencesConjugales";
 
 
@@ -29,6 +44,8 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Accueil />} />
           <Route path="echappesbelles" element={<EchapeeBelle />} />
+          <Route path="audio" element={<TemoignagesAudio />} />
+
 
 
           <Route path="Garance18" element={<Garance18 />} />
