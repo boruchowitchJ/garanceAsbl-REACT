@@ -18,6 +18,7 @@ import Quisommenous from './components/Presentation/QuisommeNous';
 import Filles from './components/Pourvous/Filles';
 import Garcons from './components/Pourvous/Garcon';
 import Enfantcapable from "./components/Pourvous/Enfantcapable";
+import ViolencesConjugales from "./components/Trouverdelaide/ViolencesConjugales";
 
 
 
@@ -48,7 +49,8 @@ export default function App() {
           <Route path="Reseau" element={<Reseau />} />
           <Route path="Statut" element={<Statut />} />
           <Route path="QuisommeNous" element={<Quisommenous />} />
-          
+
+          <Route path="ViolencesConjugales" element={<ViolencesConjugales />} />
 
           <Route path="contact" element={<Contact />} />
           
