@@ -149,7 +149,6 @@ ul{
 .container-violences-autres{
     width: 100%;
     font-family: 'poppinsextralight';
-    background-color: #f6c667;
     padding-top: 5%;
     padding-bottom: 5%;
     /* height: 100vh; */
@@ -194,5 +193,42 @@ ul{
     flex-direction: row;
     justify-content: space-around;
 }
+
+/*& ABOUT TAIDE PSYCHO-SOCIALE *********************/
+.container-aide-psycho{
+    width: 100%;
+    font-family: 'poppinsextralight';
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* height: 100vh; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*~ BELGIQUE **************/
+
+.aide-psycho-belgique{
+    width: 70%;
+    background: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgba(53, 72, 91, .07), 0 2px 2px rgba(0, 0, 0, .01), 0 4px 4px rgba(0, 0, 0, .02), 0 10px 8px rgba(0, 0, 0, .03), 0 15px 15px rgba(0, 0, 0, .03), 0 30px 30px rgba(0, 0, 0, .04), 0 70px 65px rgba(0, 0, 0, .05);
+    padding: 3%;
+}
+
+.title-aide-psycho{
+    color: #900c27;
+    text-align: center;
+}
+
+.aide-psycho-belgique a{
+    color: #f6c667;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.aide-psycho-belgique a:hover{
+    color: #900c27;
+}
+
 
 
