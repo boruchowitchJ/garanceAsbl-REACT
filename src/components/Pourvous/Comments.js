@@ -109,7 +109,7 @@ class Comments extends Component {
             </form>
           </div>
           <img
-            src="https://assets.ccbp.in/frontend/react-js/comments-app/comments-img.png"
+            src="../assets/images/comments-img.png"
             className="image1"
             alt="comments"
           />
