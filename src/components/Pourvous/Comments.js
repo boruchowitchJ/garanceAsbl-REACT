@@ -88,7 +88,7 @@ class Comments extends Component {
         
         <div className="inner-holder">
           <div className="element-holder">
-            <p className="para1">Vos écrits restent </p>
+            <h2 className="para1">Vos écrits restent </h2>
             <form className="element-holder" onSubmit={this.addComment}>
               <input
                 type="text"

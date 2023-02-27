@@ -2,6 +2,7 @@
 
 .main-container {
   width: 100%;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -65,7 +66,7 @@
 }
 
 .btn {
-  background-color: #0284c7;
+  background-color: #c71a74;
   border-style: none;
   border-radius: 2px;
   color: #dee0e3;
@@ -95,7 +96,7 @@ hr {
 .number-count {
   color: white;
   padding: 6px;
-  background-color: #0284c7;
+  background-color: #d5a00d;
   border-radius: 5px;
   font-size: 12px;
 }
