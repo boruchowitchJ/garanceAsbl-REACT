@@ -1,5 +1,7 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+
 import Layout from "./components/NavBar";
 import Accueil from "./components/Accueil";
 import EchapeeBelle from "./components/Pourvous/Echapeebelle";
@@ -38,11 +40,15 @@ import Statut from './components/Presentation/Statut';
 
 import ViolencesConjugales from "./components/Trouverdelaide/ViolencesConjugales";
 import Comments from "./components/Pourvous/Comments";
+import {FooterPage} from "./components/Footer"
+
 
 
 
 export default function App() {
   return (
+  <>
+
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -82,10 +88,14 @@ export default function App() {
           <Route path="ViolencesConjugales" element={<ViolencesConjugales />} />
 
           <Route path="contact" element={<Contact />} />
+
+          
           
         </Route>
       </Routes>
     </BrowserRouter>
+    <FooterPage/>
+    </>
   );
 }
 

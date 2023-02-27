@@ -1,8 +1,11 @@
 import { Outlet, Link } from "react-router-dom";
 import './Pourvous.css';
 
+
+
 const Echapees = () => {
     return (
+       
         <div className="container_pourvous">
                         <div className="containersmall"> 
             <h1> Echappées Belles</h1>
@@ -23,6 +26,7 @@ const Echapees = () => {
             
            </div>
            <Outlet />
+           
         </div>
         
     )

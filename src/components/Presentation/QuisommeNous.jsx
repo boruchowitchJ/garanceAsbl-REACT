@@ -1,6 +1,6 @@
 const QuisommesNous = () => {
   return (
-    <div className="container_pourvous">
+    <div id="QuisommesNous" className="container_pourvous">
       <h1> Garance ASBL</h1>
       <div className="containersmall" >
         

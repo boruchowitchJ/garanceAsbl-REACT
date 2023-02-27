@@ -3,7 +3,6 @@
 header{
     display: flex;
     flex-direction: row;
-    width: 100.8%;
     height: 79px;
     justify-content: space-evenly;
     background-color: #f9f6f789;
@@ -14,7 +13,7 @@ header{
   }
   nav{
     width: 100%;
-    margin: 0 auto;
+    margin: 0.5% auto;
     position: sticky;
     top: 0px;
     
@@ -84,3 +83,5 @@ nav > ul li:hover .sous{
     width: 30%;
     padding: 5px;
 }
+
+
