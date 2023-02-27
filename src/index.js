@@ -14,6 +14,9 @@ import Garance55 from './components/Pourvous/Garance+55';
 
 
 import GaranceFemme from './components/Pourvous/GaranceFemme';
+import Autodefense from './components/Pourvous/Autodefence';
+import Verbale from './components/Pourvous/Verbale';
+import Entrainement from './components/Pourvous/Entrainement';
 
 
 import GaranceHomme from './components/Pourvous/GaranceHomme';
@@ -57,6 +60,12 @@ export default function App() {
           <Route path="Garance55" element={<Garance55 />} />
           
           <Route path="GaranceFemme" element={<GaranceFemme />} />
+          <Route path="auto" element={<Autodefense />} />
+          <Route path="Verbale" element={<Verbale />} />
+          <Route path="entrainement" element={<Entrainement />} />
+
+
+
           <Route path="GaranceHomme" element={<GaranceHomme />} />
           <Route path="GarancePro" element={<GarancePro />} />
 
