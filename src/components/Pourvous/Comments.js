@@ -88,7 +88,7 @@ class Comments extends Component {
         
         <div className="inner-holder">
           <div className="element-holder">
-            <p className="para1">Say something about 4.0 Technologies</p>
+            <p className="para1">Vos écrits restent </p>
             <form className="element-holder" onSubmit={this.addComment}>
               <input
                 type="text"
@@ -116,7 +116,7 @@ class Comments extends Component {
         </div>
         
         <p className="comments-count">
-          <span className="number-count">{count}</span> Comments
+          <span className="number-count">{count}</span> temoignages
           <ul className="comment-holder">
             {arrayList.map(eachObject => (
               <CommentItem

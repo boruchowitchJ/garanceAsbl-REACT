@@ -8,10 +8,18 @@ const Multiplayer = () => {
 
     return (
         <>
-            <div className="container_Audio_big">
-                <h1 >Ta voix compte </h1>
+            <div className="container_Audio_big"><h1 >Ta voix compte </h1>
+                <div className="inner-holder">
                 <p>Elles vous racontent, sans mâcher leurs mots, comment elles s’en sont sorties de situations désagréables, voir dangereuses :<br/>
                  Si vous voulez partager une expérience positive dont vous êtes fière avec d’autres femmes, contactez notre secrétariat pour prendre rendez-vous pour un enregistrement.</p>
+
+                 <img
+            src="../assets/images/temoignagesaudios.jpg"
+            className="image18"
+            alt="comments"
+          />
+                 
+                 </div>
                 <div className="container_Audio_small">
                     <div className='audioSelf'>
                         <h2>Vélo volé</h2>

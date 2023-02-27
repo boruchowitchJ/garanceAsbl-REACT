@@ -19,10 +19,13 @@
 .inner-holder {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   
+}
+.inner-holder p{
+  width: 50%;
 }
 
 .element-holder {
@@ -72,8 +75,8 @@
 }
 
 .image1 {
-  width: 400px;
-  height: 300px;
+  width: 600px;
+  height: 500px;
 }
 
 .comments-count {
@@ -84,7 +87,7 @@
 hr {
   background-color: #cbd2d9;
   opacity: 0.5;
-  width: 88vw;
+  width: 50vw;
   margin-left: 0;
 }
 
