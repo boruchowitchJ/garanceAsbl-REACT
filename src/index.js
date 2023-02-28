@@ -93,8 +93,9 @@ export default function App() {
           
         </Route>
       </Routes>
+      <FooterPage/>
     </BrowserRouter>
-    <FooterPage/>
+    
     </>
   );
 }

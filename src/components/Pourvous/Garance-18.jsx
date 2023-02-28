@@ -1,9 +1,10 @@
 import { Outlet, Link } from "react-router-dom";
+import Filles from "./Filles";
 import './Pourvous.css'
 
 
 const Garance18 = () => {
-  return (
+  return (<>
     <div className="container_pourvous">
       <h1> Garance -18 </h1>
 
@@ -25,7 +26,9 @@ const Garance18 = () => {
 
 
       <Outlet />
+      
     </div>
+    <Filles/></>
   )
 };
 
