@@ -5,7 +5,8 @@ import { MDBContainer } from 'mdb-react-ui-kit';
 
 const Echapees = () => {
     return (
-        <MDBContainer>
+        <MDBContainer className="container_pourvous">
+            <h1>Echapees belles</h1>
       <div className='clearfix bg-image hover-zoom' >
         <img
           className='bd-placeholder-img col-md-6 float-md-end mb-3 ms-md-3 rounded-4 shadow-4'
