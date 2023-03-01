@@ -4,7 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 const Nav = () => {
     return (
        <> <header>
-            <div><img className="logoNav" src='./assets/images/garancelogo.png'></img></div>
+            <div id='NavBar'><img className="logoNav" src='./assets/images/garancelogo.png'></img></div>
             <nav className='NavBar'>
                 <ul className='list_nav'>
                     <li><Link to="/">Accueil</Link></li>

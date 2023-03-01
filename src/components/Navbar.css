@@ -5,10 +5,12 @@ header{
     flex-direction: row;
     height: 79px;
     justify-content: space-evenly;
-    background-color: #f9f6f789;
-    margin-top: -10px;
+    
+   
     margin-left: -12px;
     font-size: 18px;
+    z-index: 9999;
+    border-radius: 20pw;
   
   }
   nav{
@@ -16,6 +18,7 @@ header{
     margin: 0.5% auto;
     position: sticky;
     top: 0px;
+    z-index: 9999;
     
 }
 
@@ -82,6 +85,7 @@ nav > ul li:hover .sous{
 .logoNav{
     width: 30%;
     padding: 5px;
+    z-index: 9999;
 }
 
 

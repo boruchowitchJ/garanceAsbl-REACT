@@ -48,7 +48,7 @@ export const FooterPage = () => {
               <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4'>Lien</h6>
                 <p>
-                <HashLink className="link" to="/#Acceuil">Accueil</HashLink>
+                <HashLink className="link" to="/#NavBar">Accueil</HashLink>
                 </p>
                 <p>
                 <HashLink className="link" to="/QuisommeNous#QuisommesNous">Qui sommes Nous?</HashLink> 
