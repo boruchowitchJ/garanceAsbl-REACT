@@ -33,8 +33,8 @@ const Home = () => {
                     <div className="carousel-item active">
                         <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}>
                             <div className="d-flex justify-content-center align-items-center h-100">
-                                <div className="text-white text-center">
-                                    <h1 className="mb-3"style={{fontsize: "80px"}}>J accepte la grande aventure d'être moi</h1>
+                                <div className="text-white text-center tittle_hero">
+                                    <h1 className="mb-3" style={{ fontSize: "80px",padding: "5px" }}>J accepte la grande aventure d'être moi</h1>
                                     <h5 className="mb-4">-Simone de Bauvoir</h5>
                                     <HashLink className="btn  m-2 link" to="/#soutenir">Soutenir</HashLink>
                                     <HashLink className="btn  m-2 link" to="/#valeur">Valeur</HashLink>
@@ -52,12 +52,12 @@ const Home = () => {
                                         <MDBContainer className="my-5 h-100">
                                             <MDBRow className="justify-content-center align-items-center h-100">
                                                 <MDBCol lg="9" xl="7">
-                                                
+
                                                     <MDBCardBody className="p-5">
 
-                                                        <figure className="mb-0 text-center">
+                                                        <figure className="mb-0 text-center tittle_hero">
                                                             <MDBTypography blockquote>
-                                                                <p className="pb-3">
+                                                                <p className="pb-3 ">
                                                                     <MDBIcon fas icon="quote-left text-primary" size="xs" />
                                                                     <span className="lead font-italic" >
                                                                         Un monde où chaque personne peut vivre en sécurité, sans violence ni discrimination, et réaliser tout son potentiel.
@@ -70,7 +70,7 @@ const Home = () => {
                                                             </figcaption>
                                                         </figure>
                                                     </MDBCardBody>
-                                                 
+
                                                 </MDBCol>
                                             </MDBRow>
                                         </MDBContainer>
@@ -84,8 +84,8 @@ const Home = () => {
                     <div className="carousel-item">
                         <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }} >
                             <div className="d-flex justify-content-center align-items-center h-100">
-                                <div className="text-white text-center">
-                                    <h1>Ensemble Prevenons les Violences</h1>
+                                <div className="text-white text-center tittle_hero">
+                                    <h1 className="mb-3" style={{ fontSize: "80px",padding: "5px" }}>Ensemble Prevenons les Violences</h1>
 
                                     <HashLink className="btn  m-2 link" to="/Comments#temoigner">Témoignez</HashLink>
                                 </div>
@@ -106,183 +106,195 @@ const Home = () => {
                 </a>
             </div>
             <main className="mt-5">
-                <div className="container">
+                <div className="container-xxl">
                     {/* <!--Section: Content--> */}
 
 
-                    <div className='mt-1' id="soutenir">
-                    <h1 className=" p-4 mb-3"> Nous soutenir</h1>
-                        <div className="container mt-5">
+                    <div className='mt-1 ' >
+                        <section className='soutenir ' id="soutenir">
+                            <h1 className=" p-4 mb-3 text-uppercase text-center"> Nous soutenir</h1>
+                            <div className="container mt-5">
 
-                            <div className="row">
+                                <div className="row">
 
-                                <div className="col-md-6 mb-4">
-                                    <div className="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
-                                        <img src="./assets/images/imgA5.jpg" className="img-fluid" />
+                                    <div className="col-md-6 mb-4">
+                                        <div className="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+                                            <img src="./assets/images/imgA5.jpg" className="img-fluid" />
 
-                                        <div className="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
+                                            <div className="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
 
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-6 mb-4">
+
+                                        <div className="p-4">
+                                            <p>Ce que Garance a pu réaliser dans le passé a été possible grâce non seulement à l’engagement personnel de son équipe, mais aussi au soutien de la part de particuliers et d’institutions. Pour continuer, nous avons besoin de votre soutien !</p>
+                                            <p>Investir dans Garance, c’est investir dans la sécurité de toutes et tous ! Vos dons à partir de EUR 40 sont déductibles des impôts. <br /> Vous pouvez verser votre don sur notre compte <br /><br />
+                                                <ul>
+                                                    <li>523-0802063-45, Banque Triodos</li>
+                                                    <li>IBAN : BE44 5230 8020 6345</li>
+                                                    <li>BIC : TRIOBEBB</li>
+                                                    <li>Pour des raisons administratives, nous ne pouvons pas accepter des chèques. Pour plus de détails, le secrétariat de Garance est à votre disposition.</li>
+                                                </ul>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
+                                <hr />
 
-                                <div className="col-md-6 mb-4">
 
-                                    <div className="p-4">
-                                        
-                                        <p className="lead">
-                                            <span className="me-1">
-                                                <del>$200</del>
-                                            </span>
-                                            <span>$100</span>
-                                        </p>
+                                <div className="row d-flex justify-content-center">
 
-                                        <strong><p style={{fontsize: "20px"}}>Description</p></strong>
+                                    <div className="col-md-6 text-center">
+                                        <h4 className="my-4 h4">Comment soutenir Garance ?</h4>
+                                    </div>
 
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolor suscipit libero eos atque quia ipsa sint voluptatibus! Beatae sit assumenda asperiores iure at maxime atque repellendus maiores quia sapiente.</p>
+                                </div>
 
-                                        <form className="d-flex justify-content-left">
 
-                                            <div className="form-outline me-1" style={{width: "100px"}}>
-                                                <input type="number" value="1" className="form-control" />
+                                <div className="row">
+
+                                    <section className='col-md-6'>
+                                        <div class="row  gx-lg-5">
+                                        <div class=" col-md-2"></div>
+                                            <div class=" col-md-9">
+
+                                                <div>
+
+                                                    <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4" data-mdb-ripple-color="light">
+                                                        <img src="./assets/images/imgA9.jpg" class="img-fluid" />
+                                                        <a href="#!">
+                                                            <div class="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
+                                                        </a>
+                                                    </div>
+                                                    <a href="" class="text-dark">
+                                                        <h5>Devenir Membre</h5>
+
+                                                        <p>
+                                                        Vous pouvez soutenir l’association en devenant membre. En tant que membre, vous vous engagez à payer une cotisation annuelle (EUR 15) et à assister aux deux assemblées générales par an. Vous serez ainsi au courant des plans pour l’avenir et vous pourrez contribuer à trouver des solutions aux problèmes que Garance rencontre.
+                                                        </p>
+                                                    </a>
+                                                </div>
                                             </div>
-                                            <button className="btn btn-primary ms-1" type="submit">
-                                                Add to cart
-                                                <i className="fas fa-shopping-cart ms-1"></i>
-                                            </button>
-                                        </form>
-                                    </div>
+                                        </div>
+                                    </section>
+                                    
+                                    <section className='col-md-6'>
+                                        <div class="row  gx-lg-5">
+                                            <div class=" col-md-2"></div>
+                                            <div class=" col-md-9">
+
+                                                <div>
+
+                                                    <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4" data-mdb-ripple-color="light">
+                                                        <img src="./assets/images/imgA10.jpg" class="img-fluid" />
+                                                        <a href="#!">
+                                                            <div class="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
+                                                        </a>
+                                                    </div>
+                                                    <a href="" class="text-dark">
+                                                        <h5>Etre benevolat</h5>
+
+                                                        <p>
+                                                        Vous pouvez soutenir Garance aussi en tant que volontaire. Nous cherchons des personnes qui veulent diffuser nos programmes dans des lieux publics comme des salles d’attente, qui nous donnent un coup de main lors d’événements plus importants ou encore qui souhaitent s’investir dans le domaine de l’animation, par exemple en tant qu’éducatrice paire.
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
 
                                 </div>
-
+                                <hr className="my-5" />
                             </div>
-
-
-                            <hr />
-
-
-                            <div className="row d-flex justify-content-center">
-
-                                <div className="col-md-6 text-center">
-                                    <h4 className="my-4 h4">Additional information</h4>
-
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus suscipit modi sapiente illo soluta odit voluptates, quibusdam officia. Neque quibusdam quas a quis porro? Molestias illo neque eum in laborum.</p>
-                                </div>
-
-                            </div>
-
+                        </section>
+                        {/* <!--Section: Content--> */}
+                        <section className="text-center valeur" id="valeur">
+                            <h1 className=" p-4 mb-3 text-uppercase text-center">VALEURS</h1>
 
                             <div className="row">
-
                                 <div className="col-lg-4 col-md-12 mb-4">
-                                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/11.jpg" className="img-fluid" alt="" />
+                                    <div className="card">
+                                        <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                            <img src="./assets/images/imgA6.jpeg" className="img-fluid" />
+                                            <a href="#!">
+                                                <div className="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
+                                            </a>
+                                        </div>
+                                        <div className="card-body">
+                                            <h5 className="card-title">NOS VALEURS</h5>
+                                            <p className="card-text">
+                                                <ul className="text-start">
+                                                    <li>Empouvoirment</li>
+                                                    <li>Inclusivité</li>
+                                                    <li>Solidarité</li>
+                                                    <li>Participation</li>
+                                                </ul>
+                                            </p>
+                                            <a href="#!" className="btn btn-primary">En savoir plus</a>
+                                        </div>
+                                    </div>
                                 </div>
-
-
 
                                 <div className="col-lg-4 col-md-6 mb-4">
-                                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/12.jpg" className="img-fluid" alt="" />
+                                    <div className="card">
+                                        <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                            <img src="./assets/images/imgA7.jpeg" className="img-fluid" />
+                                            <a href="#!">
+                                                <div className="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
+                                            </a>
+                                        </div>
+                                        <div className="card-body">
+                                            <h5 className="card-title">NOS PRINCIPES</h5>
+                                            <p className="card-text" >
+                                                <ul className="text-start" >
+                                                    <li>Fiabilité</li>
+                                                    <li>Redevabilité</li>
+                                                    <li> Transparence</li>
+                                                    <li>Intersectionnalité</li>                                            
+                                                </ul>
+                                            </p>
+                                            <a href="#!" className="btn btn-primary">Button</a>
+                                        </div>
+                                    </div>
                                 </div>
-
-
 
                                 <div className="col-lg-4 col-md-6 mb-4">
-                                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/13.jpg" className="img-fluid" alt="" />
+                                    <div className="card">
+                                        <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                            <img src="./assets/images/imgA8.jpeg" className="img-fluid" />
+                                            <a href="#!">
+                                                <div className="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
+                                            </a>
+                                        </div>
+                                        <div className="card-body">
+                                            <h5 className="card-title">NOS OBJECTIFS </h5>
+                                            <p >
+                                                <ul className="text-start"  >
+                                                    <li> Renforcer le pouvoir et la sécurité des femmes </li>
+                                                    <li> Agir politiquement pour la prévention primaire des violences de genre</li>
+                                                    <li>Développer l’autodéfense féministe</li>
+                                                </ul>
+                                            </p>
+                                            <a href="#!" className="btn btn-primary">Button</a>
+                                        </div>
+                                    </div>
                                 </div>
-
                             </div>
+                        </section>
+                        {/* <!--Section: Content--> */}
 
-                        </div> 
                         <hr className="my-5" />
+
+                        {/* <!--Section: Content--> */}
+                        <section className="mb-5">
+                            <h4 className="mb-5 text-center"><strong>Merci</strong></h4>
+
+
+                        </section>
+                        {/* <!--Section: Content--> */}
                     </div>
-                    {/* <!--Section: Content--> */}
-                    <section className="text-center mt-2" id="valeur">
-                        <h1 className="mb-5"><strong>VALEURS</strong></h1>
-
-                        <div className="row">
-                            <div className="col-lg-4 col-md-12 mb-4">
-                                <div className="card">
-                                    <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                        <img src="./assets/images/imgA6.jpeg" className="img-fluid" />
-                                        <a href="#!">
-                                            <div className="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
-                                        </a>
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">NOS VALEURS</h5>
-                                        <p className="card-text">
-                                            <ul >
-                                                <li>Empouvoirment</li>
-                                                <li>Inclusivité</li>
-                                                <li>Solidarité</li>
-                                                <li>Participation</li>
-                                            </ul>
-
-
-
-                                        </p>
-                                        <a href="#!" className="btn btn-primary">En savoir plus</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6 mb-4">
-                                <div className="card">
-                                    <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                        <img src="./assets/images/imgA7.jpeg" className="img-fluid" />
-                                        <a href="#!">
-                                            <div className="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
-                                        </a>
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">NOS PRINCIPES</h5>
-                                        <p className="card-text" >
-                                            <ul >
-                                                <li>Empouvoirment</li>
-                                                <li>Inclusivité</li>
-                                                <li>Solidarité</li>
-                                                <li>Participation</li>
-                                            </ul>
-                                        </p>
-                                        <a href="#!" className="btn btn-primary">Button</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6 mb-4">
-                                <div className="card">
-                                    <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                        <img src="./assets/images/imgA8.jpeg" className="img-fluid" />
-                                        <a href="#!">
-                                            <div className="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
-                                        </a>
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">NOS OBJECTIFS </h5>
-                                        <p className="">
-                                            <ul  >
-                                                <li> Renforcer le pouvoir et la sécurité des femmes </li>
-                                                <li> Agir politiquement pour la prévention primaire des violences de genre</li>
-                                                <li>Développer l’autodéfense féministe</li>
-
-                                            </ul>
-                                        </p>
-                                        <a href="#!" className="btn btn-primary">Button</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    {/* <!--Section: Content--> */}
-
-                    <hr className="my-5" />
-
-                    {/* <!--Section: Content--> */}
-                    <section className="mb-5">
-                        <h4 className="mb-5 text-center"><strong>Merci</strong></h4>
-
-
-                    </section>
-                    {/* <!--Section: Content--> */}
                 </div>
             </main></>
 
@@ -292,6 +304,7 @@ const Home = () => {
 }
 
 export default Home;
+
 
 
 
