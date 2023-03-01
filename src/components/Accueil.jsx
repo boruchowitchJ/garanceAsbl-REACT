@@ -106,12 +106,12 @@ const Home = () => {
                 </a>
             </div>
             <main className="mt-5">
-                <div className="container-xxl">
+                <div className="container">
                     {/* <!--Section: Content--> */}
 
 
                     <div className='mt-1 ' >
-                        <section className='soutenir ' id="soutenir">
+                        <section className='soutenir' id="soutenir">
                             <h1 className=" p-4 mb-3 text-uppercase text-center"> Nous soutenir</h1>
                             <div className="container mt-5">
 
@@ -147,7 +147,7 @@ const Home = () => {
                                 <div className="row d-flex justify-content-center">
 
                                     <div className="col-md-6 text-center">
-                                        <h4 className="my-4 h4">Comment soutenir Garance ?</h4>
+                                        <h2 className="my-4 h4">Comment soutenir Garance ?</h2>
                                     </div>
 
                                 </div>
