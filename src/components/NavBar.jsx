@@ -56,9 +56,9 @@ const Nav = () => {
                     <li className="deroulant"><Link to="/TrouverAide">Trouver de l'aide</Link>
                         <ul className='sous'>
                             <li><Link to="/ViolencesConjugales">Violence Conjugale</Link> </li>
-                            <li><a href="#">Violence sexuelle</a> </li>
-                            <li><a href="#">Autres type de violence</a> </li>
-                            <li><a href="#">Aide psycho-sociale</a> </li>
+                            <li><Link to="/ViolencesSexuelles#ancreViolencesSexuelles">Violence sexuelle</Link> </li>
+                            <li><Link to="/AutresTypesViolences#ancreAutresViolences">Autres type de violence</Link> </li>
+                            <li><Link to="/AidePsychoSociale#ancreAidePsychoSociale">Aide psycho-sociale</Link> </li>
                         </ul>
                     </li>
 

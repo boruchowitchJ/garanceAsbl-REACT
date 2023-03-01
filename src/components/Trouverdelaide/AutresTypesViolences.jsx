@@ -4,7 +4,7 @@ const AutresViolences = () => {
 
     return(
 
-        <div className="container-violences-autres">
+        <div className="container-violences-autres" id='ancreAutresViolences'>
             <div className="violences-autres-belgique">
                 <h1 className="title-violence-autre">En cas de tout autre type de violence</h1>
                 
