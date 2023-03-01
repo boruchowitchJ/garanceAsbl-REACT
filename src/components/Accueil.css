@@ -2,11 +2,11 @@
 .carousel-inner,
 .carousel-item,
 .carousel-item.active {
-  height: 100vh;
+  height: 95vh;
 }
 
 .carousel-item:nth-child(1) {
-  background-image: url('../../public/assets/images/imgA1.jpg');
+  background-image: url('../../public/assets/images/imgA3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -18,14 +18,14 @@
   background-position: center center;
 }
 .carousel-item:nth-child(3) {
-  background-image: url('../../public/assets/images/imgA3.jpg');
+  background-image: url('../../public/assets/images/imgA1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 /* Height for devices larger than 576px */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   #introCarousel {
     margin-top: 0px;
   }
@@ -33,6 +33,17 @@
   .carousel-inner,
   .carousel-item,
   .carousel-item.active {
-    height: 50vh;
+    height: 95vh;
   }
+} */
+
+#soutenir{
+  height: 100vh;
+  
 }
+
+
+#valeur{
+  height: 50vh;
+}
+
