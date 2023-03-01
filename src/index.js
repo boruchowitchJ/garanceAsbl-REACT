@@ -37,10 +37,13 @@ import Reseau from './components/Presentation/Reseau';
 import Statut from './components/Presentation/Statut';
 
 
-
+import TrouverAide from "./components/Trouverdelaide/TrouverAide";
 import ViolencesConjugales from "./components/Trouverdelaide/ViolencesConjugales";
+
+
 import Comments from "./components/Pourvous/Comments";
 import {FooterPage} from "./components/Footer"
+
 
 
 
@@ -85,6 +88,7 @@ export default function App() {
           <Route path="Statut" element={<Statut />} />
           <Route path="QuisommeNous" element={<Quisommenous />} />
 
+          <Route path="TrouverAide" element={<TrouverAide />} />
           <Route path="ViolencesConjugales" element={<ViolencesConjugales />} />
 
           <Route path="contact" element={<Contact />} />

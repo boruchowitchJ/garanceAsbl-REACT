@@ -53,7 +53,7 @@ const Nav = () => {
                             <li><a href="#">FAQ</a> </li>
                         </ul>
                     </li>
-                    <li className="deroulant"><a href="#">Trouver de l'aide</a>
+                    <li className="deroulant"><Link to="/TrouverAide">Trouver de l'aide</Link>
                         <ul className='sous'>
                             <li><Link to="/ViolencesConjugales">Violence Conjugale</Link> </li>
                             <li><a href="#">Violence sexuelle</a> </li>
