@@ -39,6 +39,9 @@ import Statut from './components/Presentation/Statut';
 
 import TrouverAide from "./components/Trouverdelaide/TrouverAide";
 import ViolencesConjugales from "./components/Trouverdelaide/ViolencesConjugales";
+import ViolencesSexuelles from "./components/Trouverdelaide/ViolencesSexuelles";
+import AutresViolences from "./components/Trouverdelaide/AutresTypesViolences";
+import AidePsychoSociale from "./components/Trouverdelaide/AidePsychoSociale";
 
 
 import Comments from "./components/Pourvous/Comments";
@@ -90,6 +93,9 @@ export default function App() {
 
           <Route path="TrouverAide" element={<TrouverAide />} />
           <Route path="ViolencesConjugales" element={<ViolencesConjugales />} />
+          <Route path="ViolencesSexuelles" element={<ViolencesSexuelles />} />
+          <Route path="AutresTypesViolences" element={<AutresViolences />} />
+          <Route path="AidePsychoSociale" element={<AidePsychoSociale />} />
 
           <Route path="contact" element={<Contact />} />
 
