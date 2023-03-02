@@ -87,7 +87,7 @@ const Home = () => {
                                 <div className="text-white text-center tittle_hero">
                                     <h1 className="mb-3" style={{ fontSize: "80px",padding: "5px" }}>Ensemble Prevenons les Violences</h1>
 
-                                    <HashLink className="btn  m-2 link" to="/Comments#temoigner">Témoignez</HashLink>
+                                    <HashLink className="btn  m-2 link" to="/ecrits">Témoignez</HashLink>
                                 </div>
                             </div>
                         </div>
@@ -142,8 +142,6 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <hr />
-
-
                                 <div className="row d-flex justify-content-center">
 
                                     <div className="col-md-6 text-center">
@@ -151,17 +149,12 @@ const Home = () => {
                                     </div>
 
                                 </div>
-
-
                                 <div className="row">
-
                                     <section className='col-md-6'>
                                         <div class="row  gx-lg-5">
                                         <div class=" col-md-2"></div>
                                             <div class=" col-md-9">
-
                                                 <div>
-
                                                     <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4" data-mdb-ripple-color="light">
                                                         <img src="./assets/images/imgA9.jpg" class="img-fluid" />
                                                         <a href="#!">

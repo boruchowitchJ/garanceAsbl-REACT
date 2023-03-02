@@ -11,7 +11,13 @@ body {
     background-size: cover; */
 }
 
-
+.flex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: nowrap;
+  }
 .container_pourvous {
     margin-top: 10%;
   width: 60%;

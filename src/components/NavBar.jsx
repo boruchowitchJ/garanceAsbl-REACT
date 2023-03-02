@@ -8,29 +8,12 @@ const Nav = () => {
             <nav className='NavBar'>
                 <ul className='list_nav'>
                     <li><Link to="/">Accueil</Link></li>
-                    <li className="deroulant"><a href="#">Pour vous</a>
+                    
+                    <li className="deroulant"><Link to="/pourvous">Pour vous</Link>
                         <ul className='sous'>
-                            <li><Link to="/echappesbelles">Echapees Belles</Link>
-                              {/* <ul className="">
-                                <li><a href="#">Echapees belles</a></li>
-                                <li> <a href="#">Echapees belles</a></li>
-                                <li><a href="#">Echapees belles</a></li>
-                              </ul> */}
-                            </li>
-                            <li><Link to="/GaranceFemme ">Garance Femme </Link>
-                            {/* <ul className="">
-                                <li><a href="#">Echapees belles</a></li>
-                                <li> <a href="#">Echapees belles</a></li>
-                                <li><a href="#">Echapees belles</a></li>
-                              </ul> */}
-                            </li>
-                            <li><Link to="/GaranceHomme  ">Garance Homme </Link>
-                            {/* <ul className="">
-                                <li><a href="#">Echapees belles</a></li>
-                                <li> <a href="#">Echapees belles</a></li>
-                                <li><a href="#">Echapees belles</a></li>
-                              </ul> */}
-                              </li>
+                            <li><Link to="/echappesbelles">Echapees Belles</Link></li>
+                            <li><Link to="/GaranceFemme ">Garance Femme </Link></li>
+                            <li><Link to="/GaranceHomme  ">Garance Homme </Link> </li>
                             <li><Link to="/Garance55  ">Garance +55  </Link></li>
                             <li><Link to="/Garance18 ">Garance -18 </Link></li>
                             <li><Link to="/GarancePro">Garance Pro</Link></li>

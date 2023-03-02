@@ -2,7 +2,7 @@
 .carousel-inner,
 .carousel-item,
 .carousel-item.active {
-  height: 95vh;
+  height: 94vh;
 }
 
 .carousel-item:nth-child(1) {

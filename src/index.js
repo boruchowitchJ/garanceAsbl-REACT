@@ -45,7 +45,8 @@ import AidePsychoSociale from "./components/Trouverdelaide/AidePsychoSociale";
 
 
 import Comments from "./components/Pourvous/Comments";
-import {FooterPage} from "./components/Footer"
+import FooterPage from "./components/Footer"
+import PourVousCard from "./components/Pourvous/PourvousColl/PourVousList";
 
 
 
@@ -59,6 +60,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Accueil />} />
+          <Route path="pourvous" element={<PourVousCard />} />
           <Route path="echappesbelles" element={<EchapeeBelle />} />
           <Route path="audio" element={<TemoignagesAudio />} />
           <Route path="ecrits" element={<Comments />} />
@@ -78,7 +80,7 @@ export default function App() {
           <Route path="auto" element={<Autodefense />} />
           <Route path="Verbale" element={<Verbale />} />
           <Route path="entrainement" element={<Entrainement />} />
-
+          
 
 
           <Route path="GaranceHomme" element={<GaranceHomme />} />
