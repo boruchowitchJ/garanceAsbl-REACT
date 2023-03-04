@@ -2,7 +2,12 @@
 .carousel-inner,
 .carousel-item,
 .carousel-item.active {
-  height: 94vh;
+  height: 101vh;
+  position: relative;
+}
+#introCarousel{
+  top: -100px;
+
 }
 
 .carousel-item:nth-child(1) {
@@ -37,7 +42,6 @@
   }
 } */
 .tittle_hero{
-  background-color: #ffffff0f;
 padding: 50px;
 border-radius: 20px;
 }
@@ -51,6 +55,5 @@ border-radius: 20px;
 
 .valeur{
   height: auto;
- 
-}
+ }
 

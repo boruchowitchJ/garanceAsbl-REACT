@@ -1,10 +1,14 @@
 import './Pourvous.css'
 import { Outlet, Link } from "react-router-dom";
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 
 
 
 const Garancefemme = () => {
   return (
+    <>
+ 
+
     <div className="container_pourvous">
       <h1>  Garance Femmes </h1>
 
@@ -28,6 +32,8 @@ const Garancefemme = () => {
       </div>
       <Outlet />
     </div>
+    
+    </>
   )
 };
 

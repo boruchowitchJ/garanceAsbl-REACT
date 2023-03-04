@@ -149,54 +149,59 @@ const Home = () => {
                                     </div>
 
                                 </div>
-                                <div className="row">
-                                    <section className='col-md-6'>
+                                <div className="row col-md-12">
+                                    <section className='col-md-1'></section>
+                                    <section className='col-md-5'>
                                         <div class="row  gx-lg-5">
-                                        <div class=" col-md-2"></div>
-                                            <div class=" col-md-9">
+                                       
+                                            <div >
                                                 <div>
                                                     <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4" data-mdb-ripple-color="light">
                                                         <img src="./assets/images/imgA9.jpg" class="img-fluid" />
-                                                        <a href="#!">
+                                                        
                                                             <div class="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
-                                                        </a>
+                                                        
                                                     </div>
-                                                    <a href="" class="text-dark">
-                                                        <h5>Devenir Membre</h5>
+                                                    <p >
+                                                        <h5 className='text-center'>Devenir Membre</h5>
 
                                                         <p>
                                                         Vous pouvez soutenir l’association en devenant membre. En tant que membre, vous vous engagez à payer une cotisation annuelle (EUR 15) et à assister aux deux assemblées générales par an. Vous serez ainsi au courant des plans pour l’avenir et vous pourrez contribuer à trouver des solutions aux problèmes que Garance rencontre.
                                                         </p>
-                                                    </a>
+                                                    </p>
+                                                    <div  className='text-center'><HashLink className="btn link" to="/ecrits">Devenir membre</HashLink></div>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
                                     </section>
                                     
-                                    <section className='col-md-6'>
+                                    <section className='col-md-5'>
                                         <div class="row  gx-lg-5">
-                                            <div class=" col-md-2"></div>
-                                            <div class=" col-md-9">
+                                            <div >
 
                                                 <div>
 
                                                     <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4" data-mdb-ripple-color="light">
                                                         <img src="./assets/images/imgA10.jpg" class="img-fluid" />
-                                                        <a href="#!">
+                                                       
                                                             <div class="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
-                                                        </a>
                                                     </div>
-                                                    <a href="" class="text-dark">
-                                                        <h5>Etre benevolat</h5>
+                                                    <p >
+                                                        <h5 className='text-center'>Etre benevolat</h5>
 
                                                         <p>
                                                         Vous pouvez soutenir Garance aussi en tant que volontaire. Nous cherchons des personnes qui veulent diffuser nos programmes dans des lieux publics comme des salles d’attente, qui nous donnent un coup de main lors d’événements plus importants ou encore qui souhaitent s’investir dans le domaine de l’animation, par exemple en tant qu’éducatrice paire.
                                                         </p>
-                                                    </a>
+                                                    </p><div  className='text-center'><HashLink className="btn link" to="/ecrits">Etre bénévole</HashLink></div>
+                                                    
                                                 </div>
+                                                
                                             </div>
+                                            
                                         </div>
                                     </section>
+                                    <section className='col-md-1'></section>
 
                                 </div>
                                 <hr className="my-5" />
@@ -215,17 +220,16 @@ const Home = () => {
                                                 <div className="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
                                             </a>
                                         </div>
-                                        <div className="card-body">
-                                            <h5 className="card-title">NOS VALEURS</h5>
+                                        <div className="card-body text-center">
+                                            <h5 className="text-center">NOS VALEURS</h5>
                                             <p className="card-text">
-                                                <ul className="text-start">
+                                                <ul >
                                                     <li>Empouvoirment</li>
                                                     <li>Inclusivité</li>
                                                     <li>Solidarité</li>
                                                     <li>Participation</li>
                                                 </ul>
                                             </p>
-                                            <a href="#!" className="btn btn-primary">En savoir plus</a>
                                         </div>
                                     </div>
                                 </div>
@@ -238,17 +242,16 @@ const Home = () => {
                                                 <div className="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
                                             </a>
                                         </div>
-                                        <div className="card-body">
-                                            <h5 className="card-title">NOS PRINCIPES</h5>
+                                        <div className="card-body text-center">
+                                            <h5 className="text-center">NOS PRINCIPES</h5>
                                             <p className="card-text" >
-                                                <ul className="text-start" >
+                                                <ul  >
                                                     <li>Fiabilité</li>
                                                     <li>Redevabilité</li>
                                                     <li> Transparence</li>
                                                     <li>Intersectionnalité</li>                                            
                                                 </ul>
                                             </p>
-                                            <a href="#!" className="btn btn-primary">Button</a>
                                         </div>
                                     </div>
                                 </div>
@@ -261,16 +264,15 @@ const Home = () => {
                                                 <div className="mask" style={{ backgroundcolor: "rgba(251, 251, 251, 0.15)" }}></div>
                                             </a>
                                         </div>
-                                        <div className="card-body">
-                                            <h5 className="card-title">NOS OBJECTIFS </h5>
+                                        <div className="card-body text-center">
+                                            <h5 className=" text-center">NOS OBJECTIFS </h5>
                                             <p >
-                                                <ul className="text-start"  >
+                                                <ul>
                                                     <li> Renforcer le pouvoir et la sécurité des femmes </li>
                                                     <li> Agir politiquement pour la prévention primaire des violences de genre</li>
                                                     <li>Développer l’autodéfense féministe</li>
                                                 </ul>
                                             </p>
-                                            <a href="#!" className="btn btn-primary">Button</a>
                                         </div>
                                     </div>
                                 </div>
