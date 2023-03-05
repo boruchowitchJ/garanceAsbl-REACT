@@ -1,10 +1,23 @@
+import { MDBContainer } from 'mdb-react-ui-kit';
+
+
+
 const Garancehomme = () => {
-  return (
- 
-  <div className="container_pourvous">
+  return (<>
+    <div
+    className='p-5 text-center bg-image'
+    style={{ backgroundImage: "url('../assets/images/homme.jpg')", height: 600, marginTop:-100, backgroundPositionY:"30%" }}
+  >
+    <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
+      
+    </div>
+  </div>
+
+    <MDBContainer className="container_pourvous col-md-6 " style={{marginTop: "-80px" }}>
+  
     <h1>Garance Hommes</h1>
-    <img className="image_18" src='../assets/images/homme.jpg'alt="" />
-    <div className="containersmall">
+    {/* <img className="image_18" src='../assets/images/homme.jpg'alt="" /> */}
+    <div className="containersmall  ">
       
       <p>
         Depuis plusieurs années, Garance mène une réflexion sur la prévention des violences chez les hommes. En effet, les hommes peuvent également être confrontés à des agressions, mais ne savent souvent pas comment y réagir.
@@ -14,8 +27,8 @@ const Garancehomme = () => {
         Si ce sujet vous intéresse, contactez le secrétariat de Garance</p>
         </div>
 
-  </div>
-
+  </MDBContainer>
+</>
 
 
   )

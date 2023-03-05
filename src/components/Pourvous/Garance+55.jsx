@@ -1,9 +1,21 @@
+import { MDBContainer } from 'mdb-react-ui-kit';
+
+
+
 const Garance55 = () => {
-  return (
-    <div className="container_pourvous">
+  return (<>
+    <div
+    className='p-5 text-center bg-image'
+    style={{ backgroundImage: "url('../assets/images/55+.jpg')", height: 600, marginTop:-100, backgroundPositionY:"30%" }}
+  >
+    <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
+      
+    </div>
+  </div>
+
+    <MDBContainer className="container_pourvous col-md-6 " style={{marginTop: "-80px" }}>
       <h1>  Garance 55+</h1>
 
-      <img className="image_18" src='../assets/images/55+.png' alt="" />
       <div className="containersmall" >
 
         <p>
@@ -43,7 +55,7 @@ const Garance55 = () => {
         </p>
       </div>
 
-    </div>
+    </MDBContainer></>
   )
 };
 

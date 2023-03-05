@@ -1,9 +1,19 @@
+import { MDBContainer } from 'mdb-react-ui-kit';
+
 const Garancepro = () => {
-  return (
-    <div className="container_pourvous">
+  return (<>
+    <div
+    className='p-5 text-center bg-image'
+    style={{ backgroundImage: "url('../assets/images/pro.jpg')", height: 600, marginTop:-100, backgroundPositionY:"60%" }}
+  >
+    <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
+      
+    </div>
+  </div>
+
+    <MDBContainer className="container_pourvous col-md-6 " style={{marginTop: "-80px" }}>
         <h1>  Garance Pro </h1>
         
-        <img className="image_18" src='../assets/images/pro.jpg'alt="" />
         <div className="containersmall" >
           
         <p>
@@ -30,7 +40,7 @@ Si vous voulez organiser une activité pour votre public, contactez le secrétar
  </p>
         </div>
         
-    </div>
+    </MDBContainer></>
 )
   };
   

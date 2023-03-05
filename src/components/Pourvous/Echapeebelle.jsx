@@ -5,19 +5,20 @@ import { MDBContainer } from 'mdb-react-ui-kit';
 
 const Echapees = () => {
     return (
-        <MDBContainer className="container_pourvous">
+      <>
+      <div
+        className='p-5 text-center bg-image'
+        style={{ backgroundImage: "url('../assets/images/femme3.jpg')", height: 600, marginTop:-100, backgroundPositionY:"30%" }}
+      >
+        <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
+          
+        </div>
+      </div>
+ 
+        <MDBContainer className="container_pourvous col-md-6" style={{marginTop: "-80px" }}>
             <h1>Echapees belles</h1>
-      <div className='clearfix bg-image hover-zoom' >
-        <img
-          className='bd-placeholder-img col-md-6 float-md-end mb-3 ms-md-3 rounded-4 shadow-4'
-          width='25%'
-          height='25%'
-          img src='../assets/images/femme2.png'
-          role='img'
-        //   preserveAspectRatio='xMidYMid slice'
-          focusable={false}
-        >
-        </img>
+      <div>
+        
         <p>
         Dans ce forum, vous pouvez échanger vos expériences de réussite dans des situations désagréables ou même dangereuses. Vous y trouverez des histoires écrites et racontées.
 
@@ -35,7 +36,7 @@ Une stratégie de défense n’est pas limitée à quelques coups de karaté (ou
       </div>
     
         <Outlet />
-        </MDBContainer>
+        </MDBContainer></>
     )
 }
 export default Echapees;

@@ -1,14 +1,23 @@
 import { Outlet, Link } from "react-router-dom";
 import Filles from "./Filles";
 import './Pourvous.css'
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import { MDBContainer } from 'mdb-react-ui-kit';
 
 
 const Garance18 = () => {
-  return (<>
-    <div className="container_pourvous">
+  return (<> 
+  <div
+        className='p-5 text-center bg-image'
+        style={{ backgroundImage: "url('../assets/images/18.jpg')", height: 600, marginTop:-100, backgroundPositionY:"25%" }}
+      >
+        <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
+          
+        </div>
+      </div>
+  <MDBContainer className="container_pourvous col-md-6 " style={{marginTop: "-80px" }}>
       <h1> Garance -18 </h1>
 
-      <img className="image_18" src='../assets/images/18.jpg' alt="" />
       <div className="containersmall" >
 
         <p>
@@ -27,7 +36,7 @@ const Garance18 = () => {
 
       <Outlet />
       
-    </div>
+    </MDBContainer>
     <Filles/></>
   )
 };

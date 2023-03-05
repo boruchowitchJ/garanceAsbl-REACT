@@ -47,7 +47,7 @@ import AidePsychoSociale from "./components/Trouverdelaide/AidePsychoSociale";
 import Comments from "./components/Pourvous/Comments";
 import FooterPage from "./components/Footer"
 import PourVousCard from "./components/Pourvous/PourvousColl/PourVousList";
-
+import EquipeList from "./components/Pourvous/Equipe/EquipeList";
 
 
 

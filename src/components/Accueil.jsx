@@ -15,6 +15,10 @@ import {
 } from "mdb-react-ui-kit";
 import * as mdb from 'mdb-ui-kit'
 import { Input } from 'mdb-ui-kit'; // module
+import EquipeList from './Pourvous/Equipe/EquipeList';
+
+
+
 const Home = () => {
     return (
         <>
@@ -282,15 +286,12 @@ const Home = () => {
 
                         <hr className="my-5" />
 
-                        {/* <!--Section: Content--> */}
-                        <section className="mb-5">
-                            <h4 className="mb-5 text-center"><strong>Merci</strong></h4>
-
-
-                        </section>
+                      
                         {/* <!--Section: Content--> */}
                     </div>
                 </div>
+
+                <EquipeList/>
             </main></>
 
 

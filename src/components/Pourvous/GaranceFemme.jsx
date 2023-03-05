@@ -1,15 +1,24 @@
 import './Pourvous.css'
 import { Outlet, Link } from "react-router-dom";
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import { MDBContainer } from 'mdb-react-ui-kit';
+
 
 
 
 const Garancefemme = () => {
   return (
     <>
- 
+  <div
+        className='p-5 text-center bg-image'
+        style={{ backgroundImage: "url('../assets/images/femme.jpg')", height: 600, marginTop:-100, backgroundPositionY:"30%" }}
+      >
+        <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
+          
+        </div>
+      </div>
 
-    <div className="container_pourvous">
+      <MDBContainer className="container_pourvous col-md-6 " style={{marginTop: "-80px" }}>
       <h1>  Garance Femmes </h1>
 
       <img className="image_18" src='../assets/images/femme1.png' alt="" />
@@ -31,7 +40,7 @@ const Garancefemme = () => {
          <span> Retrouvez les dates des formations de Garance</span> 
       </div>
       <Outlet />
-    </div>
+    </MDBContainer>
     
     </>
   )
