@@ -15,7 +15,7 @@ return(
          <section class="mx-auto my-5" style={{maxWidth: "23rem;"}}>
       
       <div class="card testimonial-card mt-2 mb-3">
-        <div class="card-up aqua-gradient"></div>
+        <div class="card-up "></div>
         <div class="avatar mx-auto white">
           <img src={photo} class="rounded img-fluid"
             alt="woman avatar" style={{backgroundColor: "white"}}/>
