@@ -9,8 +9,8 @@ const EquipeCard = (props)=> {
   const { nom, description, photo}= props;
 return(
 <>
-<section class="col-md-1 my-5"></section>
-    <section class="col-md-2 my-5">
+
+    <section class="col-md-3 my-5">
     <main >        
          <section class="mx-auto my-5" style={{maxWidth: "23rem;"}}>
       
@@ -33,7 +33,7 @@ return(
   </main>
     
     </section>
-    <section class="col-md-1 my-5"></section>
+    
     </>
 )
 

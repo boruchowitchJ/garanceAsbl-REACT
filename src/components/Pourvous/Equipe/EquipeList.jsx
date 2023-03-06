@@ -18,15 +18,15 @@ const EquipeList = () => {
 
   return (
     <>
-      <div class="container text-center">
+      <div class="container  text-center">
         <h1>L’ÉQUIPE GARANCE</h1>
         <p>
           Si vous cherchez à organiser une formation, contactez le secrétariat de Garance.
 
           L’équipe de Garance est constituée de travailleuses et de volontaires qui assurent le secrétariat, le conseil d’administration et les animations :</p>
       </div>
-    
-      <div class="container_fluid text-center" style={{ height: "auto" }}>
+      
+      <div class="container text-center col-md-8" style={{ height: "auto" }}>
         <div class="row">
           {equipeliste.map(e => <EquipeCard key={e.id} nom={e.nom} description={e.description} photo={e.photo} lien={e.lien} />)}
         </div>
