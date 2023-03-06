@@ -25,8 +25,8 @@ const Nav = () => {
         <>
             <header >
 
-                <MDBNavbar className=''style={{ zIndex: "999" }} expand='md' >
-                    <MDBContainer fluid >
+                <MDBNavbar style={{ zIndex: "999",fontWeight:400,boxShadow:"none" }} expand='lg' >
+                    <MDBContainer fluid  className='fixed-top' >
                         <MDBNavbarBrand >
                             <img
                                 src='./assets/images/garancelogo.png'
@@ -45,8 +45,8 @@ const Nav = () => {
                             <MDBIcon icon='bars' fas />
                         </MDBNavbarToggler>
 
-                        <MDBCollapse   navbar show={showBasic}>
-                            <MDBNavbarNav className='justify-content-evenly align-item-center ' >
+                        <MDBCollapse  style={{height: 80 }} navbar show={showBasic} >
+                            <MDBNavbarNav className='justify-content-evenly align-item-center nav-items ' style={{ }}>
                                 <MDBNavbarItem >
                                     <MDBNavbarLink  active aria-current='page' href='/'>
                                         Accueil
@@ -55,11 +55,11 @@ const Nav = () => {
 
 
                                 <MDBNavbarItem  >
-                                    <MDBDropdown   >
+                                    <MDBDropdown  >
                                         <MDBDropdownToggle style={{display: "flex", alignItems: "center"}} tag='a' role='button'>
-                                            <MDBNavbarLink style={{display: "flex", alignItems: "center"}} href='/pourvous'>Pour vous</MDBNavbarLink>
+                                            <MDBNavbarLink style={{display: "flex", alignItems: "center",}} href='/pourvous'>Pour vous</MDBNavbarLink>
                                         </MDBDropdownToggle>
-                                        <MDBDropdownMenu style={{ backgroundColor: "#f000" }}  >
+                                        <MDBDropdownMenu className='sous' style={{ backgroundColor: "#f000" }}  >
                                             <MDBDropdownItem ><MDBNavbarLink href='/echappesbelles'>Echapees Belles</MDBNavbarLink></MDBDropdownItem>
                                             <MDBDropdownItem ><MDBNavbarLink href="/GaranceFemme ">Garance Femme </MDBNavbarLink></MDBDropdownItem>
                                             <MDBDropdownItem ><MDBNavbarLink href="/GaranceHomme  ">Garance Homme</MDBNavbarLink></MDBDropdownItem>
@@ -74,7 +74,7 @@ const Nav = () => {
                                         <MDBDropdownToggle style={{display: "flex", alignItems: "center",width:100}} tag='a' className='' role='button'>
                                             <MDBNavbarLink href="/QuisommeNous">Qui sommes Nous?</MDBNavbarLink>
                                         </MDBDropdownToggle>
-                                        <MDBDropdownMenu style={{ backgroundColor: "#f000" }}>
+                                        <MDBDropdownMenu className='sous' style={{ backgroundColor: "#f000" }}>
                                             <MDBDropdownItem ><MDBNavbarLink href="/Histoire">Histoire</MDBNavbarLink></MDBDropdownItem>
                                             <MDBDropdownItem ><MDBNavbarLink href="/Positionnement">Positionnement</MDBNavbarLink></MDBDropdownItem>
                                             <MDBDropdownItem ><MDBNavbarLink href="/Reseau">Reseau</MDBNavbarLink></MDBDropdownItem>
@@ -90,7 +90,7 @@ const Nav = () => {
                                             <MDBNavbarLink href="/TrouverAide">Trouver de l'aide</MDBNavbarLink>
                                         </MDBDropdownToggle>
 
-                                        <MDBDropdownMenu style={{ backgroundColor: "#f000" }}>
+                                        <MDBDropdownMenu className='sous' style={{ backgroundColor: "#f000" }}>
                                             <MDBDropdownItem ><MDBNavbarLink href="/ViolencesConjugales">Violence Conjugale</MDBNavbarLink></MDBDropdownItem>
                                             <MDBDropdownItem ><MDBNavbarLink href="/ViolencesSexuelles">Violence sexuelle</MDBNavbarLink></MDBDropdownItem>
                                             <MDBDropdownItem ><MDBNavbarLink href="/AutresTypesViolences">Autres type de violence</MDBNavbarLink></MDBDropdownItem>

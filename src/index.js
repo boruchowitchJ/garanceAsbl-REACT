@@ -5,7 +5,7 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import Layout from "./components/NavBar";
 import Accueil from "./components/Accueil";
 import EchapeeBelle from "./components/Pourvous/Echapeebelle";
-import TemoignagesAudio from "./components/Pourvous/TemoignagesAudio"
+import TemoignagesAListe from "./components/Pourvous/TemoignagesAListe"
 
 import Garance18 from './components/Pourvous/Garance-18';
 import Filles from './components/Pourvous/Filles';
@@ -62,7 +62,7 @@ export default function App() {
           <Route index element={<Accueil />} />
           <Route path="pourvous" element={<PourVousCard />} />
           <Route path="echappesbelles" element={<EchapeeBelle />} />
-          <Route path="audio" element={<TemoignagesAudio />} />
+          <Route path="audio" element={<TemoignagesAListe />} />
           <Route path="ecrits" element={<Comments />} />
 
 

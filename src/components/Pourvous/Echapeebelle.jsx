@@ -1,12 +1,15 @@
 import { Outlet, Link } from "react-router-dom";
 import './Pourvous.css';
 import { MDBContainer } from 'mdb-react-ui-kit';
+import Comment from "./Comments";
+
+import TemoignagesAListe from "./TemoignagesAListe";
 
 
 const Echapees = () => {
     return (
       <>
-      <div
+      <div id="echappe"
         className='p-5 text-center bg-image'
         style={{ backgroundImage: "url('../assets/images/femme3.jpg')", height: 600, marginTop:-100, backgroundPositionY:"30%" }}
       >
@@ -36,7 +39,12 @@ Une stratégie de défense n’est pas limitée à quelques coups de karaté (ou
       </div>
     
         <Outlet />
-        </MDBContainer></>
+        
+        </MDBContainer>
+        
+        <Comment/>
+        <TemoignagesAListe/>
+        </>
     )
 }
 export default Echapees;

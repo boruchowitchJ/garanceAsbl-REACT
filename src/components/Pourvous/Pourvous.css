@@ -187,3 +187,12 @@ body {
     border: 5px solid #fff;
     border-radius: 50%;
 }
+.cascading-right {
+    margin-right: -50px;
+  }
+
+  @media (max-width: 991.98px) {
+    .cascading-right {
+      margin-right: 0;
+    }
+  }

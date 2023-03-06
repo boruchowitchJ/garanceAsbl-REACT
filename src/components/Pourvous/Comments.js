@@ -82,7 +82,10 @@ class Comments extends Component {
   render() {
     const {name, comment, arrayList, count} = this.state
     return (
-      <div className='container_pourvous' id="temoigner">
+      <>
+      <div className='row'>
+       <div className='col-md-3' id="temoigner"></div>
+      <div className='container_pourvous col-md-6' id="temoigner">
         <h1 className="main-heading">Temoignages</h1>
       <div className="main-container">
         
@@ -128,7 +131,7 @@ class Comments extends Component {
             ))}
           </ul>
         </p>
-      </div></div>
+      </div></div></div></>
     )
   }
 }
