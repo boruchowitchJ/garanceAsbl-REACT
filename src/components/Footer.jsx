@@ -59,7 +59,7 @@ export const FooterPage = () => {
                   </a>
                 </p>
                 <p>
-                <HashLink className="link" to="/ViolencesConjugales">Trouver de l aide</HashLink>
+                <HashLink className="link" to="/TrouverAide#touverdelaide">Trouver de l aide</HashLink>
                 </p>
               </MDBCol>
   
