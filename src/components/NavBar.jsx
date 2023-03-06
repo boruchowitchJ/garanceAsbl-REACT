@@ -46,7 +46,7 @@ const Nav = () => {
                         </MDBNavbarToggler>
 
                         <MDBCollapse   navbar show={showBasic}>
-                            <MDBNavbarNav className='justify-content-end align-item-center ' >
+                            <MDBNavbarNav className='justify-content-evenly align-item-center ' >
                                 <MDBNavbarItem >
                                     <MDBNavbarLink  active aria-current='page' href='/'>
                                         Accueil
@@ -56,8 +56,8 @@ const Nav = () => {
 
                                 <MDBNavbarItem  >
                                     <MDBDropdown   >
-                                        <MDBDropdownToggle style={{display: "flex",alignItems: "center;"}} tag='a' className='' role='button'>
-                                            <MDBNavbarLink style={{display: "flex",alignItems: "center;"}} href='/pourvous'>Pour vous</MDBNavbarLink>
+                                        <MDBDropdownToggle style={{display: "flex", alignItems: "center"}} tag='a' role='button'>
+                                            <MDBNavbarLink style={{display: "flex", alignItems: "center"}} href='/pourvous'>Pour vous</MDBNavbarLink>
                                         </MDBDropdownToggle>
                                         <MDBDropdownMenu style={{ backgroundColor: "#f000" }}  >
                                             <MDBDropdownItem ><MDBNavbarLink href='/echappesbelles'>Echapees Belles</MDBNavbarLink></MDBDropdownItem>
@@ -71,7 +71,7 @@ const Nav = () => {
                                 </MDBNavbarItem>
                                 <MDBNavbarItem>
                                     <MDBDropdown>
-                                        <MDBDropdownToggle tag='a' className='' role='button'>
+                                        <MDBDropdownToggle style={{display: "flex", alignItems: "center",width:100}} tag='a' className='' role='button'>
                                             <MDBNavbarLink href="/QuisommeNous">Qui sommes Nous?</MDBNavbarLink>
                                         </MDBDropdownToggle>
                                         <MDBDropdownMenu style={{ backgroundColor: "#f000" }}>
@@ -86,7 +86,7 @@ const Nav = () => {
                                 {/* ici mettre ton drop menu Activité */}
                                 <MDBNavbarItem style={{ display: "flex" }}>
                                     <MDBDropdown >
-                                        <MDBDropdownToggle tag='a' className='' role='button'>
+                                        <MDBDropdownToggle style={{display: "flex", alignItems: "center"}} tag='a' className='' role='button'>
                                             <MDBNavbarLink href="/TrouverAide">Trouver de l'aide</MDBNavbarLink>
                                         </MDBDropdownToggle>
 
