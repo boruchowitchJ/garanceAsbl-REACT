@@ -84,8 +84,8 @@ class Comments extends Component {
     return (
       <>
         <div className='row'>
-          
-          <div className=' col-md-12' id="temoigner">
+          <div className="col-md-3"></div>
+          <div className='container_pourvous  col-md-6' id="temoigner"style={{marginTop:"-8%", height:"auto", background: "hsla(0, 0%, 100%, 0.55)", backdropfilter: "blur(30px); " }}>
 
             <div className="main-container col-md-6">
               <div className="inner-holder">
@@ -93,26 +93,26 @@ class Comments extends Component {
                   <div className="col-lg-1"></div>
                   <div className="col-lg-5 mb-5 mb-lg-0 cascading-right"> <img
                     src="../assets/images/comments-img.png" className="w-100 rounded-4 "
-                    alt="" aria-controls="#picker-editor" /> </div>
+                    alt="" aria-controls="#picker-editor" /> </div><div className='col-lg-1'></div>
                   <div className="col-lg-5 mb-5 mb-lg-0">
-                    <div className="card "
-                      style={{ background: "hsla(0, 0%, 100%, 0.55)", backdropfilter: "blur(30px); " }}>
-                      <div className="card-body px-4 pb-5 pt-md-0 px-md-5 shadow-5">
+                    <div className=""
+                      style={{ background: "hsla(0, 0%, 100%, 0.55)", backdropfilter: "blur(30px); ", borderRadius:".5rem" }}>
+                      <div className="card-body px-4 pb-5 pt-md-0 px-md-5 shadow-5 ">
                         <h1 className="my-5 display-4 fw-bold ls-tight"> <span></span> <br /> <span
                           className="text-secondary">Vos écrits restent</span> </h1>
                         <div className="element-holder">
                           <h2 className="para1">Temoignez</h2>
                           <form className="element-holder" onSubmit={this.addComment}>
-                            <input
+                            <input style={{borderRadius:".5rem" }}
                               type="text"
                               className="name-field"
                               placeholder="Nom"
                               onChange={this.inputValue}
                               value={name}
                             />
-                            <textarea
+                            <textarea style={{borderRadius:".5rem" }}
                               className="comment-field"
-                              placeholder="Ecrit ton temoignage ici!"
+                              placeholder="Ecris ton temoignage ici!"
                               onChange={this.textValue}
                               value={comment}
                             />
@@ -126,7 +126,9 @@ class Comments extends Component {
                   </div>      
                   </div>
                 
-              </div><p className="comments-count"style={{ height:"auto" }}>
+              </div> <div className='container row'>
+                <div className='col-md-2'></div>
+              <div className='col-md-6'><p className="comments-count"style={{ height:"auto" }}>
                   <span className="number-count">{count}</span> temoignages
                   <ul className="comment-holder">
                     {arrayList.map(eachObject => (
@@ -138,7 +140,7 @@ class Comments extends Component {
                       />
                     ))}
                   </ul>
-                </p>
+                </p></div></div> 
             </div>
           </div>
         </div>

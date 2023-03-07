@@ -2,6 +2,9 @@ import './Pourvous.css'
 import { Outlet, Link } from "react-router-dom";
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import { MDBContainer } from 'mdb-react-ui-kit';
+import Autodenfence from './Autodefence';
+import Verbale from './Verbale';
+import Entrainement from './Entrainement';
 
 
 
@@ -9,7 +12,7 @@ import { MDBContainer } from 'mdb-react-ui-kit';
 const Garancefemme = () => {
   return (
     <>
-  <div
+  <div id="femme"
         className='p-5 text-center bg-image'
         style={{ backgroundImage: "url('../assets/images/femme.jpg')", height: "70vh", marginTop:-100, backgroundPositionY:"30%" }}
       >
@@ -47,6 +50,9 @@ const Garancefemme = () => {
       </div>
       <Outlet />
     </MDBContainer>
+    <Autodenfence/>
+    <Verbale/>
+    <Entrainement/>
     </section>
     </>
   )

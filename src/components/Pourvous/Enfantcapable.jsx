@@ -6,7 +6,7 @@ const Enfantcapable = () => {
   return (
 
     <div class="container_fluid py-4">
-      <div class="row g-0 align-items-center" style={{ marginBottom:150, marginTop:-80}}>
+      <div class="row g-0 align-items-center" style={{ marginTop:"-8%"}}>
        <div class="col-lg-1 "></div>
         <div class="col-lg-5 mb-5 mb-lg-0 cascading-right"> <img
           src="../assets/images/enfantcapable.jpg" class="w-100 rounded-4 shadow-4"
@@ -15,8 +15,8 @@ const Enfantcapable = () => {
           <div class="card "
             style={{ background: "hsla(0, 0%, 100%, 0.55)", backdropfilter: "blur(30px); " }}>
             <div class="card-body px-4 pb-5 pt-md-0 px-md-5 shadow-5">
-              <h1 class="my-5 display-4 fw-bold ls-tight"> <span>Enfant Capable </span> <br /> <span
-                class="text-primary">Clés pour l’Autonomie et la Prévention</span> </h1>
+              <h1 class="my-5 display-4 fw-bold ls-tight"> <span style={{color:"#e02965"}}>Enfant Capable </span> <br /> <span
+                 style={{color:"#F8CD42"}}>Clés pour l’Autonomie et la Prévention</span> </h1>
               <p>Une proportion significative d’enfants vit de la violence, parfois grave, qui peut nuire à leur développement et accroître leur vulnérabilité à l’âge adulte. Nous ne sommes pas à côté de nos enfants 24h sur 24, c’est pourquoi il est primordial de les munir d’outils concrets pour faire face à d’éventuelles agressions, qu’elles soient verbales, physiques ou sexuelles. Les adultes en contact avec des enfants ont également besoin d’outils pour pouvoir les soutenir dans ces situations.
 
                 Garance est pionnière en Belgique dans la diffusion du programme CAP (Child Assault Prevention), créé il y a 40 ans et utilisé aujourd’hui dans une vingtaine de pays.

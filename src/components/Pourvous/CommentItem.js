@@ -52,7 +52,7 @@ const CommentItem = props => {
           />
         </button>
       </div>
-      <hr />
+  
     </li>
   )
 }

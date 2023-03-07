@@ -1,7 +1,7 @@
 
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 
 
@@ -25,7 +25,7 @@ return(
                 <p class="card-text">
                 {description}
                 </p>
-                <Link to={lien} class="btn link">En savoir plus</Link>
+                <HashLink to={lien} class="btn link">En savoir plus</HashLink>
               </div>
             </div>
           </div>

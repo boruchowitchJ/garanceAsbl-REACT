@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import './Pourvous.css';
 import { MDBContainer } from 'mdb-react-ui-kit';
 import Comment from "./Comments";
@@ -38,14 +38,13 @@ Une stratégie de défense n’est pas limitée à quelques coups de karaté (ou
         Les petites astuces pour éviter la violence, les mots bien trouvés qui clouent le bec à l’agresseur, la fuite quand elle est possible, les façons dont on a pu trouver de l’aide, de la solidarité : </p> <p>Garance collectionne toutes ces petites richesses pour les partager, pour que chacune puisse en inspirer, et pour (re)prendre courage : les femmes sont parfois victimes de violence, mais <strong>elles ne sont pas démunies !</strong>
         </p>
         <p>
-        <span><Link className="link" to="/ecrits">➢ des témoignages écrits</Link></span><br />
-        <span><Link className="link" to="/audio">➢ des témoignages audios </Link></span> <br />
+        <span><HashLink className="link" to="/ecrits#temoignage">➢ des témoignages écrits</HashLink></span><br />
+        <span><HashLink className="link" to="/audio">➢ des témoignages audios </HashLink></span> <br />
         <span>➢ un formulaire Témoignez ! pour vous permettre d’envoyer vos témoignages</span>   
         </p>
       </div>
     
-        <Outlet />
-        
+             
         </MDBContainer>
         
         <Comment/>

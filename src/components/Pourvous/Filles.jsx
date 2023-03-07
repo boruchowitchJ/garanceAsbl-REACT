@@ -1,16 +1,16 @@
 const Filles = () => {
     return (
         <>
-        <section class="mb-10 text-justify" id="Filles">
+        <section  id="Filles">
         <div className="container_fluid py-4">
-        <div className="row g-0 align-items-center"style={{ marginBottom:150}}>
-          <div className="col-lg-1 mb-5 mb-lg-0"></div>
-          <div className="col-lg-5 mb-5 mb-lg-0">
+        <div className="row g-0 align-items-center">
+          <div className="col-lg-2 mb-5 mb-lg-0"></div>
+          <div className="col-lg-4 mb-5 mb-lg-0">
             <div className="card cascading-right"
               style={{background: "hsla(0, 0%, 100%, 0.55)", backdropfilter: "blur(30px)"}}>
               <div className="card-body py-5 px-md-5 shadow-5">
-                <h2 className="fw-bold mb-6"> <span> Filles </span> <br/> <span
-                    className="text-primary">à partir de 8 ans</span> </h2>
+              <h1 class="my-5 display-4 fw-bold ls-tight"> <span style={{color:"#e02965"}}>Filles </span> <br /> <span
+                 style={{color:"#F8CD42"}}> Des 8 ans </span> </h1>
                 <div className="row">
                   <div className="col-12 mb-5"><p>
                 Les filles peuvent être confrontées à des agressions de la part d’inconnus, d’autres enfants et jeunes ou, le plus souvent, de la part d’adultes proches. Leur éducation les prépare souvent mal à faire face à ces situations. Les attentes qu’on leur porte par rapport à leur gentillesse, politesse et soumission à l’autorité adulte les rendent plus vulnérables encore.

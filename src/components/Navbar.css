@@ -27,7 +27,7 @@ nav a:hover {
 }
 
 .nav-items{
-    box-shadow: rgba(0, 0, 0, 0.68) 0px 4px 12px 0px, rgba(0, 0, 0, 0.3) 0px 2px 4px;
+    box-shadow: rgba(0, 0, 0, 0.421) 0px 4px 12px 0px, rgba(0, 0, 0, 0.178) 0px 2px 4px;
 
 border-radius: .5rem;
 width: 60%;
@@ -42,7 +42,8 @@ font-weight: 600
 
 .sous{
     display: none;
-    box-shadow: 0px 1px 2px #e3e3e3;
+    box-shadow: rgba(0, 0, 0, 0.421) 0px 4px 12px 0px, rgba(0, 0, 0, 0.178) 0px 2px 4px;
+
     background: "hsla(0, 0%, 100%, 0.55)";
 backdrop-filter: blur(30px);
     position: absolute;

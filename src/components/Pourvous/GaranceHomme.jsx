@@ -4,7 +4,7 @@ import { MDBContainer } from 'mdb-react-ui-kit';
 
 const Garancehomme = () => {
   return (<>
-    <div
+    <div id='homme'
     className='p-5 text-center bg-image'
     style={{ backgroundImage: "url('../assets/images/homme.jpg')", height:"70vh", marginTop:-100, backgroundPositionY:"30%" }}
   >
