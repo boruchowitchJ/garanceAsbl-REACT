@@ -27,12 +27,14 @@ const Nav = () => {
 
                 <MDBNavbar style={{ zIndex: "999",fontWeight:400,boxShadow:"none" }} expand='lg' >
                     <MDBContainer fluid  className='fixed-top' >
-                        <MDBNavbarBrand >
+                        <MDBNavbarBrand style={{marginTop:20}} >
                             <img
                                 src='./assets/images/garancelogo.png'
-                                height='50'
+                                height='150px'
+                                
                                 alt=''
                                 loading='lazy'
+                                className='.logoNav'
                             />
                         </MDBNavbarBrand>
 
@@ -45,7 +47,7 @@ const Nav = () => {
                             <MDBIcon icon='bars' fas />
                         </MDBNavbarToggler>
 
-                        <MDBCollapse  style={{height: 80 }} navbar show={showBasic} >
+                        <MDBCollapse  style={{height: 80 ,marginTop:-20}} navbar show={showBasic} >
                             <MDBNavbarNav className='justify-content-evenly align-item-center nav-items ' style={{ }}>
                                 <MDBNavbarItem >
                                     <MDBNavbarLink  active aria-current='page' href='/'>

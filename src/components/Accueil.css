@@ -2,7 +2,7 @@
 .carousel-inner,
 .carousel-item,
 .carousel-item.active {
-  height: 101vh;
+  height: 106vh;
   position: relative;
 }
 #introCarousel{

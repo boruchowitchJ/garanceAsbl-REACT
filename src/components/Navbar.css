@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Oswald:wght@300&display=swap');
 
 .logoNav{
-    height: 139%;
+    height: 100%!important;
     z-index: 9999;
     margin-left: 1%;
     margin-top: 8px;
@@ -28,7 +28,7 @@ nav a:hover {
 
 .nav-items{
     box-shadow: rgba(0, 0, 0, 0.68) 0px 4px 12px 0px, rgba(0, 0, 0, 0.3) 0px 2px 4px;
-background: #ffffff1b;
+background: #00000000;
 border-radius: 50px;
 width: 60%;
 height: 100%;
@@ -42,7 +42,7 @@ font-weight: 600
 .sous{
     display: none;
     box-shadow: 0px 1px 2px #e3e3e3;
-    background: #ffffff13!important;
+    background: #000000aa!important;
     position: absolute;
     width: 100%;
     z-index: 1000;
