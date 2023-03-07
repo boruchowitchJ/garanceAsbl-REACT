@@ -109,6 +109,13 @@ const Home = () => {
                     <span className="sr-only">Next</span>
                 </a>
             </div>
+
+            <section class="grainy-gradient-intro">
+  <svg height="0" width="0">
+    <filter id='f'>
+      <feTurbulence type='fractalNoise' baseFrequency='.5' />
+    </filter>
+  </svg>
             <main className="mt-5">
                 <div className="container">
                     {/* <!--Section: Content--> */}
@@ -292,7 +299,7 @@ const Home = () => {
                 </div>
 
                 <EquipeList/>
-            </main></>
+            </main></section></>
 
 
 

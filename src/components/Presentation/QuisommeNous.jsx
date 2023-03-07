@@ -1,6 +1,18 @@
 const QuisommesNous = () => {
   return (
-    <div id="QuisommesNous" className="container_pourvous">
+
+  <> <div
+     class="hero-image-qui">
+        
+  <div class="mask" style={{backgroundcolor: "rgba(0, 0, 0, 0.0)"}}></div>
+</div>
+<section class="grainy-gradient-intro">
+  <svg height="0" width="0">
+    <filter id='f'>
+      <feTurbulence type='fractalNoise' baseFrequency='.5' />
+    </filter>
+  </svg>
+    <div id="QuisommesNous" className="container_pourvous col-md-6" style={{marginTop: "-1050px", height:"auto"}}>
       <h1> Garance ASBL</h1>
       <div className="containersmall" >
         
@@ -31,7 +43,7 @@ const QuisommesNous = () => {
         <p>
           En plus de ses formatrices, Garance partage son expertise dans le domaine de la prévention primaire des violences basées sur le genre. Des autorités publiques, institutions, employeurs et chercheuses font appel à Garance afin d’enrichir la lutte contre la violence faite aux femmes par des formations pour les professionnel/le/s, des recherches et des politiques.</p>
       </div>
-    </div>
+    </div> </section> </> 
   )
 };
 

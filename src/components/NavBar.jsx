@@ -47,7 +47,7 @@ const Nav = () => {
                             <MDBIcon icon='bars' fas />
                         </MDBNavbarToggler>
 
-                        <MDBCollapse  style={{height: 80 ,marginTop:-20}} navbar show={showBasic} >
+                        <MDBCollapse  style={{height: 80 }} navbar show={showBasic} > 
                             <MDBNavbarNav className='justify-content-evenly align-item-center nav-items ' style={{ }}>
                                 <MDBNavbarItem >
                                     <MDBNavbarLink  active aria-current='page' href='/'>

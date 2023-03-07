@@ -12,13 +12,19 @@ const Garance18 = () => {
   return (<> 
   <div id='18'
         className='p-5 text-center bg-image'
-        style={{ backgroundImage: "url('../assets/images/18.jpg')", height: 600, marginTop:-100, backgroundPositionY:"25%" }}
+        style={{ backgroundImage: "url('../assets/images/18.jpg')", height: "70vh", marginTop:-100, backgroundPositionY:"15%" }}
       >
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
           
         </div>
       </div>
-  <MDBContainer className="container_pourvous col-md-6 " style={{marginTop: "-80px", height:"50vh"}}>
+      <section class="grainy-gradient-intro">
+  <svg height="0" width="0">
+    <filter id='f'>
+      <feTurbulence type='fractalNoise' baseFrequency='.5' />
+    </filter>
+  </svg>
+  <MDBContainer className="container_pourvous col-md-6 " style={{marginTop: "-5%", height:"auto"}}>
       <h1> Garance -18 </h1>
 
       <div className="containersmall" >
@@ -40,7 +46,7 @@ const Garance18 = () => {
     <Enfantcapable/>
     <Filles id="Filles"/>
     <Garcons/>
-    
+    </section>
     </>
   )
 };

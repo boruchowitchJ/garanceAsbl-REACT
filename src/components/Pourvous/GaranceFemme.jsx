@@ -11,14 +11,20 @@ const Garancefemme = () => {
     <>
   <div
         className='p-5 text-center bg-image'
-        style={{ backgroundImage: "url('../assets/images/femme.jpg')", height: 600, marginTop:-100, backgroundPositionY:"30%" }}
+        style={{ backgroundImage: "url('../assets/images/femme.jpg')", height: "70vh", marginTop:-100, backgroundPositionY:"30%" }}
       >
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
           
         </div>
       </div>
+      <section class="grainy-gradient-intro">
+  <svg height="0" width="0">
+    <filter id='f'>
+      <feTurbulence type='fractalNoise' baseFrequency='.5' />
+    </filter>
+  </svg>
 
-      <MDBContainer className="container_pourvous col-md-6 " style={{marginTop: "-80px" }}>
+      <MDBContainer className="container_pourvous col-md-6 " style={{marginTop: "-5%" }}>
       <h1>  Garance Femmes </h1>
 
       <img className="image_18" src='../assets/images/femme1.png' alt="" />
@@ -41,7 +47,7 @@ const Garancefemme = () => {
       </div>
       <Outlet />
     </MDBContainer>
-    
+    </section>
     </>
   )
 };

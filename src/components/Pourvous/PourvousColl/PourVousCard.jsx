@@ -13,7 +13,7 @@ return(
     <section class="col-md-4 my-5">
     <main >        
           <div >
-            <div class="card text-center">
+            <div class="card text-center" style={{ height:"450px", background: "hsla(0, 0%, 100%, 0.55)", backdropfilter: "blur(30px)"}}>
               <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src= {affiche} class="img-fluid" />
                 <a href="#!">

@@ -4,14 +4,20 @@ const Garancepro = () => {
   return (<>
     <div
     className='p-5 text-center bg-image'
-    style={{ backgroundImage: "url('../assets/images/pro.jpg')", height: 600, marginTop:-100, backgroundPositionY:"60%" }}
+    style={{ backgroundImage: "url('../assets/images/pro.jpg')", height: "70vh", marginTop:-100, backgroundPositionY:"60%" }}
   >
     <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
       
     </div>
   </div>
+  <section class="grainy-gradient-intro">
+  <svg height="0" width="0">
+    <filter id='f'>
+      <feTurbulence type='fractalNoise' baseFrequency='.5' />
+    </filter>
+  </svg>
 
-    <MDBContainer className="container_pourvous col-md-6 " style={{marginTop: "-80px" }}>
+    <MDBContainer className="container_pourvous col-md-6 " style={{marginTop: "-5%" }}>
         <h1>  Garance Pro </h1>
         
         <div className="containersmall" >
@@ -40,7 +46,8 @@ Si vous voulez organiser une activité pour votre public, contactez le secrétar
  </p>
         </div>
         
-    </MDBContainer></>
+    </MDBContainer>
+    </section></>
 )
   };
   

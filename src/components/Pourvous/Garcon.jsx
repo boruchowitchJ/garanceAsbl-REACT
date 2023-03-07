@@ -10,8 +10,8 @@ const Garcons = () => {
             <div class="card "
                 style={{ background: "hsla(0, 0%, 100%, 0.55)", backdropfilter: "blur(30px); " }}>
                 <div class="card-body px-4 pb-5 pt-md-0 px-md-5 shadow-5">
-                    <h1 class="my-5 display-4 fw-bold ls-tight"> <span></span> <br/> <span
-                        class="text-primary">Garcon</span> </h1>
+                    <h1 class="my-5 display-4 fw-bold ls-tight"> <span>Garcon</span> <br/> <span
+                        class="text-primary"></span> </h1>
                     <p>
                         Les garçons se retrouvent souvent dans des situations dangereuses parce que l’on les met au défi de montrer qu’ils sont des « vrais hommes ». Dans la période de l’adolescence, il est d’autant plus important de les accompagner à la recherche de leur identité. Garance a réuni une série d’outils et de techniques pour eux qui permettent de se réaliser tout en respectant autrui.
 
