@@ -1,5 +1,5 @@
 import PourVousCard from "./PourVousCard"
-
+import ScrollAnimation from 'react-animate-on-scroll';
 const PourVousList = () => {
     const pourvousliste = [
         { id:1, titre:"Echappée Belle", description: "L’autodéfense est tout ce qui rend nos vies plus sûres.",  affiche:"../../assets/images/femme3.jpg", lien:"/echappesbelles#echappe"},
@@ -28,12 +28,12 @@ const PourVousList = () => {
     </filter>
   </svg>
   
-
+  <ScrollAnimation animateIn='fadeInLeft'>
         <div class="container"style={{marginTop: "-40%",height:"82vh" }}>
             <div class="row">
            { pourvousliste.map(p => <PourVousCard key ={p.id} titre={p.titre} description={p.description} affiche={p.affiche} lien={p.lien}/>)}
 </div>
-        </div>
+        </div></ScrollAnimation>
         </section>
   
         </>

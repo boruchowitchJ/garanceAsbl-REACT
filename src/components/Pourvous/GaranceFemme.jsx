@@ -1,4 +1,5 @@
 import './Pourvous.css'
+import ScrollAnimation from 'react-animate-on-scroll';
 import { Outlet, Link } from "react-router-dom";
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import { MDBContainer } from 'mdb-react-ui-kit';
@@ -50,9 +51,13 @@ const Garancefemme = () => {
       </div>
       <Outlet />
     </MDBContainer>
-    <Autodenfence/>
-    <Verbale/>
-    <Entrainement/>
+    <ScrollAnimation animateIn='fadeInLeft'><Autodenfence/></ScrollAnimation>
+    <ScrollAnimation animateIn='fadeInRight'><Verbale/></ScrollAnimation>
+    <ScrollAnimation animateIn='fadeInLeft'><Entrainement/></ScrollAnimation>
+
+    
+    
+    
     </section>
     </>
   )
