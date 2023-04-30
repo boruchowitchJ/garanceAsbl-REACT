@@ -46,7 +46,7 @@ const TrouverAide = () => {
       style={{ paddingTop: "40%" }}
     >
       <div>
-        <ScrollAnimation animateIn="fadeInLeft">
+        <ScrollAnimation animateIn="fadeInRight">
           <div class="container" style={{ marginTop: "-30%", height: "auto" }}>
             <div class="row">
               {TrouverAideTab.map((p) => (
