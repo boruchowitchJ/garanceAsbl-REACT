@@ -1,0 +1,9 @@
+/*& About the container ACTIVITES *************/
+.containerActivites {
+  padding-top: 10%;
+  height: 150vh;
+  background-color: whitesmoke;
+}
+.cardRow {
+  margin-top: 30%;
+}
