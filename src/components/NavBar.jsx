@@ -25,14 +25,14 @@ const Nav = () => {
       <header>
         <MDBNavbar
           style={{ zIndex: "999", fontWeight: 400, boxShadow: "none" }}
-          expand="lg"
+          expand="xl"
         >
           <MDBContainer fluid className="fixed-top">
             <MDBNavbarBrand style={{ marginTop: 20 }}>
               <img
                 src="./assets/images/garancelogo.png"
-                height="150px"
-                alt=""
+                height="100px"
+                alt="logo"
                 loading="lazy"
                 className=".logoNav"
               />
@@ -49,7 +49,7 @@ const Nav = () => {
 
             <MDBCollapse style={{ height: 80 }} navbar show={showBasic}>
               <MDBNavbarNav
-                className="justify-content-evenly align-item-center nav-items "
+                className="justify-content-around align-item-center nav-items "
                 style={{}}
               >
                 <MDBNavbarItem>
@@ -115,7 +115,7 @@ const Nav = () => {
                       style={{
                         display: "flex",
                         alignItems: "center",
-                        width: 100,
+                        marginLeft: "-37px",
                       }}
                       tag="a"
                       className=""

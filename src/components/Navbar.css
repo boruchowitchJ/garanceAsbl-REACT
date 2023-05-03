@@ -28,15 +28,13 @@ nav a:hover {
 
 .nav-items{
     box-shadow: rgba(0, 0, 0, 0.421) 0px 4px 12px 0px, rgba(0, 0, 0, 0.178) 0px 2px 4px;
-
 border-radius: .5rem;
-width: 60%;
-height: 100%;
+height: 50%;
 background: "hsla(0, 0%, 100%, 0.55)";
 backdrop-filter: blur(30px);
 align-items: center;
 margin-top: -2%;
-margin-left: 40%;
+margin-left: 15%;
 font-weight: 600
 }
 
