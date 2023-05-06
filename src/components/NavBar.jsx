@@ -21,7 +21,7 @@ const Nav = () => {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <>
+    <div>
       <header>
         <MDBNavbar
           style={{ zIndex: "999", fontWeight: 400, boxShadow: "none" }}
@@ -229,7 +229,7 @@ const Nav = () => {
         </MDBNavbar>
       </header>
       <Outlet />
-    </>
+    </div>
   );
 };
 

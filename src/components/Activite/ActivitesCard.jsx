@@ -1,7 +1,7 @@
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { HashLink } from "react-router-hash-link";
-
+import React from "react";
 const ActivitesCard = (props) => {
   const { titre, description, affiche, lien } = props;
 

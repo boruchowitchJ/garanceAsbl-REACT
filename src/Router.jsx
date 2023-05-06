@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
-
+import React from "react";
 import Layout from "./components/NavBar";
 import Accueil from "./components/Accueil";
 import EchapeeBelle from "./components/Pourvous/Echapeebelle";
@@ -47,55 +47,50 @@ import EquipeList from "./components/Pourvous/Equipe/EquipeList";
 
 const Router = () => {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Accueil />} />
-            <Route path="pourvous" element={<PourVousCard />} />
-            <Route path="echappesbelles" element={<EchapeeBelle />} />
-            <Route path="audio" element={<TemoignagesAListe />} />
-            <Route path="ecrits" element={<Comments />} />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Accueil />} />
+          <Route path="pourvous" element={<PourVousCard />} />
+          <Route path="echappesbelles" element={<EchapeeBelle />} />
+          <Route path="audio" element={<TemoignagesAListe />} />
+          <Route path="ecrits" element={<Comments />} />
 
-            <Route path="Garance18" element={<Garance18 />} />
-            <Route path="Filles" element={<Filles />} />
-            <Route path="Garcons" element={<Garcons />} />
-            <Route path="enfantcapable" element={<Enfantcapable />} />
+          <Route path="Garance18" element={<Garance18 />} />
+          <Route path="Filles" element={<Filles />} />
+          <Route path="Garcons" element={<Garcons />} />
+          <Route path="enfantcapable" element={<Enfantcapable />} />
 
-            <Route path="Garance55" element={<Garance55 />} />
+          <Route path="Garance55" element={<Garance55 />} />
 
-            <Route path="GaranceFemme" element={<GaranceFemme />} />
-            <Route path="auto" element={<Autodefense />} />
-            <Route path="Verbale" element={<Verbale />} />
-            <Route path="entrainement" element={<Entrainement />} />
+          <Route path="GaranceFemme" element={<GaranceFemme />} />
+          <Route path="auto" element={<Autodefense />} />
+          <Route path="Verbale" element={<Verbale />} />
+          <Route path="entrainement" element={<Entrainement />} />
 
-            <Route path="GaranceHomme" element={<GaranceHomme />} />
-            <Route path="GarancePro" element={<GarancePro />} />
+          <Route path="GaranceHomme" element={<GaranceHomme />} />
+          <Route path="GarancePro" element={<GarancePro />} />
 
-            <Route path="Histoire" element={<Histoire />} />
-            <Route path="Partenariat" element={<Partenariat />} />
-            <Route path="Positionnement" element={<Positionnement />} />
-            <Route path="Reseau" element={<Reseau />} />
-            <Route path="Statut" element={<Statut />} />
-            <Route path="QuisommeNous" element={<Quisommenous />} />
+          <Route path="Histoire" element={<Histoire />} />
+          <Route path="Partenariat" element={<Partenariat />} />
+          <Route path="Positionnement" element={<Positionnement />} />
+          <Route path="Reseau" element={<Reseau />} />
+          <Route path="Statut" element={<Statut />} />
+          <Route path="QuisommeNous" element={<Quisommenous />} />
 
-            <Route path="Activites" element={<Activites />} />
+          <Route path="Activites" element={<Activites />} />
 
-            <Route path="TrouverAide" element={<TrouverAide />} />
-            <Route
-              path="ViolencesConjugales"
-              element={<ViolencesConjugales />}
-            />
-            <Route path="ViolencesSexuelles" element={<ViolencesSexuelles />} />
-            <Route path="AutresTypesViolences" element={<AutresViolences />} />
-            <Route path="AidePsychoSociale" element={<AidePsychoSociale />} />
+          <Route path="TrouverAide" element={<TrouverAide />} />
+          <Route path="ViolencesConjugales" element={<ViolencesConjugales />} />
+          <Route path="ViolencesSexuelles" element={<ViolencesSexuelles />} />
+          <Route path="AutresTypesViolences" element={<AutresViolences />} />
+          <Route path="AidePsychoSociale" element={<AidePsychoSociale />} />
 
-            <Route path="contact" element={<Contact />} />
-          </Route>
-        </Routes>
-        <FooterPage />
-      </BrowserRouter>
-    </>
+          <Route path="contact" element={<Contact />} />
+        </Route>
+      </Routes>
+      <FooterPage />
+    </BrowserRouter>
   );
 };
 export default Router;

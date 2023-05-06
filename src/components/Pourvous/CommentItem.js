@@ -1,27 +1,20 @@
 // Write your code here
-import './CommentItem.css'
-
-const CommentItem = props => {
-  const {arrayList, deleteComment, toggleFavorite} = props
-  const {
-    id,
-    firstNames,
-    names,
-    comments,
-    newClass,
-    dates,
-    isFavorite,
-  } = arrayList
+import "./CommentItem.css";
+import React from "react";
+const CommentItem = (props) => {
+  const { arrayList, deleteComment, toggleFavorite } = props;
+  const { id, firstNames, names, comments, newClass, dates, isFavorite } =
+    arrayList;
   const imgUrl = isFavorite
-    ? 'https://assets.ccbp.in/frontend/react-js/comments-app/liked-img.png'
-    : 'https://assets.ccbp.in/frontend/react-js/comments-app/like-img.png'
-  const addClass = isFavorite ? 'sky-blue' : ''
+    ? "https://assets.ccbp.in/frontend/react-js/comments-app/liked-img.png"
+    : "https://assets.ccbp.in/frontend/react-js/comments-app/like-img.png";
+  const addClass = isFavorite ? "sky-blue" : "";
   const favButton = () => {
-    toggleFavorite(id)
-  }
+    toggleFavorite(id);
+  };
   const delButton = () => {
-    deleteComment(id)
-  }
+    deleteComment(id);
+  };
   return (
     <li className="comment-item" key={id}>
       <div className="content-holder">
@@ -52,8 +45,7 @@ const CommentItem = props => {
           />
         </button>
       </div>
-  
     </li>
-  )
-}
-export default CommentItem
+  );
+};
+export default CommentItem;

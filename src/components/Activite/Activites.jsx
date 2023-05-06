@@ -1,6 +1,6 @@
 import ScrollAnimation from "react-animate-on-scroll";
 import ActivitesCard from "./ActivitesCard";
-
+import React from "react";
 import "./Activites.css";
 
 const Activites = () => {

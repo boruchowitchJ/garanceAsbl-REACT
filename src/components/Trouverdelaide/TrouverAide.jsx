@@ -5,7 +5,7 @@ import AidePsychoSociale from "./AidePsychoSociale"; */
 
 import ScrollAnimation from "react-animate-on-scroll";
 import TrouverAideCard from "./TrouverAideCard";
-
+import React from "react";
 import "./Trouverdelaide.css";
 
 const TrouverAideTab = [
