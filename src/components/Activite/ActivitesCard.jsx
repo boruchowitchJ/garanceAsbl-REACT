@@ -21,7 +21,7 @@ const ActivitesCard = (props) => {
               class="bg-image hover-overlay ripple"
               data-mdb-ripple-color="light"
             >
-              <img src={affiche} class="img-fluid" />
+              <img src={affiche} class="img-fluid" alt="img" />
               <a href="#!">
                 <div
                   class="mask"

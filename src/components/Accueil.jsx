@@ -5,17 +5,13 @@ import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { HashLink } from "react-router-hash-link";
 import {
-  MDBCard,
   MDBCardBody,
-  MDBCardImage,
   MDBCol,
   MDBContainer,
   MDBIcon,
   MDBRow,
   MDBTypography,
 } from "mdb-react-ui-kit";
-import * as mdb from "mdb-ui-kit";
-import { Input } from "mdb-ui-kit"; // module
 import EquipeList from "./Pourvous/Equipe/EquipeList";
 
 const Home = () => {
@@ -39,7 +35,7 @@ const Home = () => {
         </ol>
 
         {/* <!-- Inner --> */}
-        <div className="carousel-inner">
+        <div className="carousel-inner" style={{}}>
           {/* <!-- Single item --> */}
           <div className="carousel-item active">
             <div
@@ -50,11 +46,13 @@ const Home = () => {
                 <div className="text-white text-center tittle_hero">
                   <h1
                     className="mb-3"
-                    style={{ fontSize: "80px", padding: "5px" }}
+                    style={{ fontSize: "80px", padding: "5px", color: "white" }}
                   >
                     J accepte la grande aventure d'être moi
                   </h1>
-                  <h5 className="mb-4">-Simone de Bauvoir</h5>
+                  <h5 className="mb-4" style={{ color: "white" }}>
+                    -Simone de Bauvoir
+                  </h5>
                   <HashLink className="btn  m-2 link" to="/#soutenir">
                     Soutenir
                   </HashLink>
@@ -87,7 +85,10 @@ const Home = () => {
                                     icon="quote-left text-primary"
                                     size="xs"
                                   />
-                                  <span className="lead font-italic">
+                                  <span
+                                    className="lead font-italic"
+                                    style={{ color: "white" }}
+                                  >
                                     Un monde où chaque personne peut vivre en
                                     sécurité, sans violence ni discrimination,
                                     et réaliser tout son potentiel.
@@ -123,7 +124,7 @@ const Home = () => {
                 <div className="text-white text-center tittle_hero">
                   <h1
                     className="mb-3"
-                    style={{ fontSize: "80px", padding: "5px" }}
+                    style={{ fontSize: "80px", padding: "5px", color: "white" }}
                   >
                     Ensemble Prevenons les Violences
                   </h1>
@@ -148,6 +149,7 @@ const Home = () => {
           <span
             className="carousel-control-prev-icon"
             aria-hidden="true"
+            style={{ color: "white" }}
           ></span>
           <span className="sr-only">Previous</span>
         </a>
@@ -160,6 +162,7 @@ const Home = () => {
           <span
             className="carousel-control-next-icon"
             aria-hidden="true"
+            style={{ color: "white" }}
           ></span>
           <span className="sr-only">Next</span>
         </a>
@@ -192,6 +195,7 @@ const Home = () => {
                           <img
                             src="./assets/images/imgA5.jpg"
                             className="img-fluid"
+                            alt="img"
                           />
 
                           <div
@@ -254,6 +258,7 @@ const Home = () => {
                                 <img
                                   src="./assets/images/imgA9.jpg"
                                   class="img-fluid"
+                                  alt="img"
                                 />
 
                                 <div
@@ -299,6 +304,7 @@ const Home = () => {
                                 <img
                                   src="./assets/images/imgA10.jpg"
                                   class="img-fluid"
+                                  alt="img"
                                 />
 
                                 <div
@@ -355,6 +361,7 @@ const Home = () => {
                           <img
                             src="./assets/images/imgA6.jpeg"
                             className="img-fluid"
+                            alt="img"
                           />
                           <a href="#!">
                             <div
@@ -388,6 +395,7 @@ const Home = () => {
                           <img
                             src="./assets/images/imgA7.jpeg"
                             className="img-fluid"
+                            alt="img"
                           />
                           <a href="#!">
                             <div
@@ -421,6 +429,7 @@ const Home = () => {
                           <img
                             src="./assets/images/imgA8.jpeg"
                             className="img-fluid"
+                            alt="img"
                           />
                           <a href="#!">
                             <div

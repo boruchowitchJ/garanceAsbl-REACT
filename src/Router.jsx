@@ -1,4 +1,3 @@
-import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import React from "react";
@@ -43,8 +42,6 @@ import AidePsychoSociale from "./components/Trouverdelaide/AidePsychoSociale";
 import Comments from "./components/Pourvous/Comments";
 import FooterPage from "./components/Footer";
 import PourVousCard from "./components/Pourvous/PourvousColl/PourVousList";
-import EquipeList from "./components/Pourvous/Equipe/EquipeList";
-
 const Router = () => {
   return (
     <BrowserRouter>

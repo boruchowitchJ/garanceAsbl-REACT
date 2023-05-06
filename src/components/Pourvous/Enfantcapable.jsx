@@ -1,4 +1,3 @@
-import { Outlet, Link } from "react-router-dom";
 import "./Pourvous.css";
 import React from "react";
 
