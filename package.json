@@ -2,6 +2,7 @@
   "name": "garanceasbl",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://boruchowitchJ.github.io/garanceAsbl",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.3.0",
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
@@ -14,6 +15,7 @@
     "bootstrap": "^5.2.3",
     "cdbreact": "^1.5.8",
     "date-fns": "^2.29.3",
+    "gh-pages": "^5.0.0",
     "kit": "^0.1.2",
     "mdb": "^0.1.0",
     "mdb-react-ui-kit": "^5.1.0",
@@ -39,7 +41,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
