@@ -23,12 +23,12 @@ const Autodenfence = () => {
             }}
           >
             <div class="card-body px-4 pb-5 pt-md-0 px-md-5 shadow-5">
-              <h1 class="my-5 display-4 fw-bold ls-tight">
+              <h3 class="my-5  fw-bold ls-tight">
                 {" "}
                 <span style={{ color: "#e02965" }}>
                   Autodéfense
                 </span> <br /> <span class="text-primary"></span>{" "}
-              </h1>
+              </h3>
               <p>
                 <span>
                   {" "}
@@ -46,10 +46,10 @@ const Autodenfence = () => {
                 </span>
                 <br />
                 <br />
-                <h2>
+                <h3>
                   Découvrez alors vos possibilités d’action et prenez votre
                   sécurité en main !
-                </h2>
+                </h3>
                 <br />
                 Dans une formation d’autodéfense (Seito Boei), vous apprendrez à
                 reconnaître des situations potentiellement dangereuses et à agir

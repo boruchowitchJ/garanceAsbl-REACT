@@ -119,13 +119,13 @@ class Comments extends Component {
                       }}
                     >
                       <div className="card-body px-4 pb-5 pt-md-0 px-md-5 shadow-5 ">
-                        <h1 className="my-5 display-4 fw-bold ls-tight">
+                        <h3 className="my-5  fw-bold ls-tight">
                           {" "}
                           <span></span> <br />{" "}
                           <span className="text-secondary">
                             Vos écrits restent
                           </span>{" "}
-                        </h1>
+                        </h3>
                         <div className="element-holder">
                           <h2 className="para1">Temoignez</h2>
                           <form

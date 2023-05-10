@@ -18,18 +18,18 @@ const Autonomie = () => {
           <div
             class="card "
             style={{
-              background: "hsla(0, 0%, 100%, 0.55)",
+              background: "hsla(0, 0%, 100%, 0.741)",
               backdropfilter: "blur(30px); ",
             }}
           >
             <div class="card-body px-4 pb-5 pt-md-0 px-md-5 shadow-5">
-              <h1 class="my-5 display-4 fw-bold ls-tight">
+              <h3 class="my-5  fw-bold ls-tight">
                 {" "}
                 <span style={{ color: "#e02965" }}>
                   Rendre l’Autonomie aux Victimes d’Infraction (RAVI)
                 </span>{" "}
                 <br /> <span class="text-primary"></span>{" "}
-              </h1>
+              </h3>
               <p>
                 <span>
                   {" "}

@@ -1,8 +1,7 @@
 import React from "react";
 const QuisommesNous = () => {
   return (
-    <div>
-      {" "}
+    <div>    
       <div class="hero-image-qui">
         <div
           class="mask"
@@ -18,7 +17,7 @@ const QuisommesNous = () => {
         <div
           id="QuisommesNous"
           className="container_pourvous col-md-6"
-          style={{ marginTop: "-1050px", height: "auto" }}
+          style={{ height: "auto", marginTop: "-26%",marginLeft: "25% "}}
         >
           <h1> Garance ASBL</h1>
           <div className="containersmall">
@@ -38,7 +37,7 @@ const QuisommesNous = () => {
               contribuer à une société plus égalitaire, moins violente.
             </p>
             <img
-              className="image_18"
+              className="image_logoQui"
               src="../assets/images/garancelogo.png"
               alt=""
             />

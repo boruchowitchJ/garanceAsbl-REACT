@@ -74,7 +74,6 @@ const Nav = () => {
                     </MDBDropdownToggle>
                     <MDBDropdownMenu
                       className="sous"
-                      style={{ backgroundColor: "#f000" }}
                     >
                       <MDBDropdownItem>
                         <MDBNavbarLink href="/echappesbelles">

@@ -10,12 +10,12 @@ const PTSD = () => {
               <div
                 className="card cascading-right"
                 style={{
-                  background: "hsla(0, 0%, 100%, 0.55)",
+                  background: "hsla(0, 0%, 100%,0.741)",
                   backdropfilter: "blur(30px)",
                 }}
               >
                 <div className="card-body py-5 px-md-5 shadow-5">
-                  <h1 class="my-5 display-4 fw-bold ls-tight">
+                  <h3 class="my-5  fw-bold ls-tight">
                     {" "}
                     <span style={{ color: "#e02965" }}>
                       L’état du stress post-traumatique (PTSD) comme conséquence
@@ -26,7 +26,7 @@ const PTSD = () => {
                       {" "}
                       - reconnaître, conseiller, réorienter
                     </span>{" "}
-                  </h1>
+                  </h3>
                   <div className="row">
                     <div className="col-12 mb-5">
                       <p>

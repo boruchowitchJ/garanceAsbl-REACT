@@ -11,7 +11,7 @@ const PourVousCard = (props) => {
           <div
             class="card text-center"
             style={{
-              height: "450px",
+              height: "350px",
               background: "hsla(0, 0%, 100%, 0.55)",
               backdropfilter: "blur(30px)",
             }}

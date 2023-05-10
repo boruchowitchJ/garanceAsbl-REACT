@@ -65,7 +65,7 @@ const PourVousList = () => {
         </svg>
 
         <ScrollAnimation animateIn="fadeInLeft">
-          <div class="container" style={{ marginTop: "-30%", height: "auto" }}>
+          <div class="container col-8" style={{ marginTop: "-30%", height: "auto" }}>
             <div class="row">
               {pourvousliste.map((p) => (
                 <PourVousCard

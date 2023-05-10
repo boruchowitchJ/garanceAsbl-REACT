@@ -23,11 +23,11 @@ const Garcons = () => {
             }}
           >
             <div class="card-body px-4 pb-5 pt-md-0 px-md-5 shadow-5">
-              <h1 class="my-5 display-4 fw-bold ls-tight">
+              <h3 class="my-5  fw-bold ls-tight">
                 {" "}
                 <span style={{ color: "#e02965" }}>Garçon</span> <br />{" "}
                 <span class="text-primary"></span>{" "}
-              </h1>
+              </h3>
               <p>
                 Les garçons se retrouvent souvent dans des situations
                 dangereuses parce que l’on les met au défi de montrer qu’ils

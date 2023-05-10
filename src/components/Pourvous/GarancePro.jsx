@@ -3,6 +3,7 @@ import Autonomie from "./Autonomie";
 import Prevenir from "./Prevenir";
 import PTSD from "./Ptsd";
 import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
 const Garancepro = () => {
   return (
     <div>
@@ -97,9 +98,17 @@ const Garancepro = () => {
             </p>
           </div>
         </MDBContainer>
-        <Prevenir />
-        <PTSD />
-        <Autonomie />
+        <ScrollAnimation animateIn="fadeInRight">
+          <Prevenir />
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft">
+          {" "}
+          <PTSD />
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeInRight">
+          <Autonomie />
+        </ScrollAnimation>
       </section>
     </div>
   );

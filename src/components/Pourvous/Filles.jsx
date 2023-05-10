@@ -15,13 +15,13 @@ const Filles = () => {
                 }}
               >
                 <div className="card-body py-5 px-md-5 shadow-5">
-                  <h1 class="my-5 display-4 fw-bold ls-tight">
+                  <h3 class="my-5  fw-bold ls-tight">
                     {" "}
                     <span style={{ color: "#e02965" }}>
                       Filles{" "}
                     </span> <br />{" "}
                     <span style={{ color: "#F8CD42" }}> Des 8 ans </span>{" "}
-                  </h1>
+                  </h3>
                   <div className="row">
                     <div className="col-12 mb-5">
                       <p>

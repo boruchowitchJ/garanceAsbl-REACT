@@ -6,6 +6,7 @@ import { MDBContainer } from "mdb-react-ui-kit";
 import Enfantcapable from "./Enfantcapable";
 import Garcons from "./Garcon";
 import React from 'react';
+import ScrollAnimation from "react-animate-on-scroll";
 
 const Garance18 = () => {
   return (
@@ -72,9 +73,12 @@ const Garance18 = () => {
             </p>
           </div>
         </MDBContainer>
-        <Enfantcapable />
-        <Filles id="Filles" />
-        <Garcons />
+        <ScrollAnimation animateIn="fadeInLeft"><Enfantcapable /></ScrollAnimation>
+        
+        <ScrollAnimation animateIn="fadeInRight"><Filles id="Filles" /></ScrollAnimation>
+        
+        <ScrollAnimation animateIn="fadeInLeft"><Garcons /></ScrollAnimation>
+        
       </section>
     </div>
   );

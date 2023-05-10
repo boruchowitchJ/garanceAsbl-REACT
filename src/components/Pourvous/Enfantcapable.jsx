@@ -24,7 +24,7 @@ const Enfantcapable = () => {
             }}
           >
             <div class="card-body px-4 pb-5 pt-md-0 px-md-5 shadow-5">
-              <h1 class="my-5 display-4 fw-bold ls-tight">
+              <h3 class="my-5 fw-bold ls-tight">
                 {" "}
                 <span style={{ color: "#e02965" }}>
                   Enfant Capable{" "}
@@ -32,7 +32,7 @@ const Enfantcapable = () => {
                 <span style={{ color: "#F8CD42" }}>
                   Clés pour l’Autonomie et la Prévention
                 </span>{" "}
-              </h1>
+              </h3>
               <p>
                 Une proportion significative d’enfants vit de la violence,
                 parfois grave, qui peut nuire à leur développement et accroître

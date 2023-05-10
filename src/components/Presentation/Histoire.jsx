@@ -1,7 +1,23 @@
 import React from "react";
 const Histoire = () => {
-  return (
-    <div className="container_pourvous">
+  return (<div>    
+    <div class="hero-image-qui">
+      <div
+        class="mask"
+        style={{ backgroundcolor: "rgba(0, 0, 0, 0.0)" }}
+      ></div>
+    </div>
+    <section class="grainy-gradient-intro">
+      <svg height="0" width="0">
+        <filter id="f">
+          <feTurbulence type="fractalNoise" baseFrequency=".5" />
+        </filter>
+      </svg>
+      <div
+        id="QuisommesNous"
+        className="container_pourvous col-md-6"
+        style={{ height: "auto", marginTop: "-26%",marginLeft: "25% "}}
+      >
       <h1>Histoire</h1>
       <div className="containersmall">
         <p>
@@ -127,6 +143,8 @@ const Histoire = () => {
           <li>➢ la STIB</li>
         </ul>
       </div>
+    </div>
+      </section>
     </div>
   );
 };
