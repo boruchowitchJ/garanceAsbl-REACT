@@ -229,8 +229,8 @@ ul {
 /*~ BELGIQUE **************/
 
 .aide-psycho-belgique {
-  width: 70%;
-  background: whitesmoke;
+  width: 100%;
+  background: rgba(245, 245, 245, 0.475);
   border-radius: 8px;
   box-shadow: 0 0 0 1px rgba(53, 72, 91, 0.07), 0 2px 2px rgba(0, 0, 0, 0.01),
     0 4px 4px rgba(0, 0, 0, 0.02), 0 10px 8px rgba(0, 0, 0, 0.03),
@@ -240,15 +240,15 @@ ul {
 }
 
 .title-aide-psycho {
-  color: #900c27;
+  color: #c70039;
   text-align: center;
 }
 
 .aide-psycho-belgique a {
-  color: #f6c667;
+  color: #c70039;
   font-weight: bold;
   font-size: 1.2rem;
 }
 .aide-psycho-belgique a:hover {
-  color: #900c27;
+  color: #dd8628;
 }

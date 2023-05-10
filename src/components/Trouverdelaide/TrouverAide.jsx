@@ -45,23 +45,34 @@ const TrouverAide = () => {
       id="touverdelaide"
       style={{ paddingTop: "40%" }}
     >
-      <div>
-        <ScrollAnimation animateIn="rotateInUpRight">
-          <div class="container" style={{ marginTop: "-30%", height: "auto" }}>
-            <div class="row">
-              {TrouverAideTab.map((p) => (
-                <TrouverAideCard
-                  key={p.id}
-                  titre={p.titre}
-                  description={p.description}
-                  affiche={p.affiche}
-                  lien={p.lien}
-                />
-              ))}
+      <section class="grainy-gradient-intro">
+        <svg height="0" width="0">
+          <filter id="f">
+            <feTurbulence type="fractalNoise" baseFrequency=".5" />
+          </filter>
+        </svg>
+        <div>
+          <ScrollAnimation animateIn="rotateInUpRight">
+            <div
+              class="container"
+              style={{ marginTop: "-30%", height: "auto" }}
+            >
+              <div class="row">
+                {TrouverAideTab.map((p) => (
+                  <TrouverAideCard
+                    key={p.id}
+                    titre={p.titre}
+                    description={p.description}
+                    affiche={p.affiche}
+                    lien={p.lien}
+                  />
+                ))}
+              </div>
             </div>
-          </div>
-        </ScrollAnimation>
-      </div>
+          </ScrollAnimation>
+        </div>
+      </section>
+
       {/* <div>
         <ViolencesConjugales />
       </div>
