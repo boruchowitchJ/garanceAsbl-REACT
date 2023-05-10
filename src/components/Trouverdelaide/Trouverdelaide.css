@@ -1,234 +1,254 @@
 @font-face {
-    font-family: 'poppinsextralight';
-    src: url('../../../public/assets/fonts/Poppins-ExtraLight.ttf');
+  font-family: "poppinsextralight";
+  src: url("../../../public/assets/fonts/Poppins-ExtraLight.ttf");
 }
 
 /*& ABOUT VIOLENCES CONJUGALES *********************/
+.ScrollAnimationBigCard {
+  width: 100%;
+}
+.container-violences-conjugales {
+  width: 100%;
+  font-family: "poppinsextralight";
+  padding-top: 10%;
+  padding-bottom: 10%;
 
-.container-violences-conjugales{
-    width: 100%;
-    font-family: 'poppinsextralight';
-    padding-top: 10%;
-    padding-bottom: 10%; /*todo ICI LE PADDING BOTTOM PAS PRIT EN COMPTE ? */
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /*~ BELGIQUE **************/
-.violence-conjugales-belgique{
-    width: 70%;
-    background: whitesmoke;
-    border-radius: 8px;
-    box-shadow: 0 0 0 1px rgba(53, 72, 91, .07), 0 2px 2px rgba(0, 0, 0, .01), 0 4px 4px rgba(0, 0, 0, .02), 0 10px 8px rgba(0, 0, 0, .03), 0 15px 15px rgba(0, 0, 0, .03), 0 30px 30px rgba(0, 0, 0, .04), 0 70px 65px rgba(0, 0, 0, .05);
-    padding: 3%;
+.violence-conjugales-belgique {
+  width: 70%;
+  background: rgba(245, 245, 245, 0.475);
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(53, 72, 91, 0.07), 0 2px 2px rgba(0, 0, 0, 0.01),
+    0 4px 4px rgba(0, 0, 0, 0.02), 0 10px 8px rgba(0, 0, 0, 0.03),
+    0 15px 15px rgba(0, 0, 0, 0.03), 0 30px 30px rgba(0, 0, 0, 0.04),
+    0 70px 65px rgba(0, 0, 0, 0.05);
+  padding: 3%;
+  margin-left: 13vw;
 }
-.title-violence-conjugale{
-    color: #900c27;
-    text-align: center;
-}
-
-.strong-yellow{
-    color: #f6c667;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-ul{
-    list-style-type: none;
-    line-height: 1.3;
+.title-violence-conjugale {
+  color: #c70039;
+  text-align: center;
 }
 
-.container-violences-conjugales ul > li > a{
-    color: #f6c667;
-    font-weight: bold;
-    font-size: 1.2rem;
+.strong-yellow {
+  color: #f6c667;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
-.container-violences-conjugales ul > li > a:hover{
-    color: #900c27;
+ul {
+  list-style-type: none;
+  line-height: 1.3;
+}
+
+.container-violences-conjugales ul > li > a {
+  color: #c70039;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.container-violences-conjugales ul > li > a:hover {
+  color: #c70039;
 }
 /*~ AUTRES ***********************/
 
-.violence-conjugales-autres{
-    width: 90%;
-    padding-top: 5%;
+.violence-conjugales-autres {
+  width: 90%;
+  padding-top: 5%;
+  margin-left: 3vw;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-.strong-yellow-exept{
-    color: #f6c667;
-    font-size: 1.2rem;
-    line-height: 1.2;
-    text-align: center;
+.strong-yellow-exept {
+  color: #c70039;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  text-align: center;
 }
 /** FRANCE ***********************/
 
-.redBox{
-    width: 20%;
-    background: #c70039;
-    padding: 3%;
-    color:whitesmoke;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 50px;
-    
+.redBox {
+  width: 20%;
+  background: rgba(245, 245, 245, 0.475);
+  padding: 3%;
+  color: whitesmoke;
+  /* border: lightgrey solid 0.2px; */
+  border-top-left-radius: 50px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0 0 0 1px rgba(53, 72, 91, 0.07), 0 2px 2px rgba(0, 0, 0, 0.01),
+    0 4px 4px rgba(0, 0, 0, 0.02), 0 10px 8px rgba(0, 0, 0, 0.03),
+    0 15px 15px rgba(0, 0, 0, 0.03), 0 30px 30px rgba(0, 0, 0, 0.04),
+    0 70px 65px rgba(0, 0, 0, 0.05);
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.redBox a{
-    line-height: 1.3;
+.redBox a {
+  line-height: 1.3;
 }
-.redBox a:hover{
-    color: whitesmoke;
+.redBox a:hover {
+  color: #cccfff;
 }
-.redBox > div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.redBox > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-.redBox > h3{
-    text-align: center;
+.redBox > h3 {
+  text-align: center;
 }
-.span-center{
-    text-align: center;
+.span-center {
+  text-align: center;
 }
 
 /*& ABOUT VIOLENCES SEXUELLES *********************/
 
-.container-violences-sexuelles{
-    width: 100%;
-    font-family: 'poppinsextralight';
-    padding-top: 5%;
-    padding-bottom: 5%;
+.container-violences-sexuelles {
+  width: 100%;
+  font-family: "poppinsextralight";
+  padding-top: 5%;
+  padding-bottom: 5%;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*~ BELGIQUE **************/
 
-.violences-sexuelles-belgique{
-    width: 70%;
-    background: whitesmoke;
-    border-radius: 8px;
-    box-shadow: 0 0 0 1px rgba(53, 72, 91, .07), 0 2px 2px rgba(0, 0, 0, .01), 0 4px 4px rgba(0, 0, 0, .02), 0 10px 8px rgba(0, 0, 0, .03), 0 15px 15px rgba(0, 0, 0, .03), 0 30px 30px rgba(0, 0, 0, .04), 0 70px 65px rgba(0, 0, 0, .05);
-    padding: 3%;
+.violences-sexuelles-belgique {
+  width: 70%;
+  background: rgba(245, 245, 245, 0.475);
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(53, 72, 91, 0.07), 0 2px 2px rgba(0, 0, 0, 0.01),
+    0 4px 4px rgba(0, 0, 0, 0.02), 0 10px 8px rgba(0, 0, 0, 0.03),
+    0 15px 15px rgba(0, 0, 0, 0.03), 0 30px 30px rgba(0, 0, 0, 0.04),
+    0 70px 65px rgba(0, 0, 0, 0.05);
+  padding: 3%;
+  margin-left: 13vw;
 }
-.title-violence-sexuelle{
-    color: #900c27;
-    text-align: center;
+.title-violence-sexuelle {
+  color: #900c27;
+  text-align: center;
 }
-.violences-sexuelles-belgique a{
-    color: #f6c667;
-    font-weight: bold;
-    font-size: 1.2rem;
+.violences-sexuelles-belgique a {
+  color: #f6c667;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
-.violences-sexuelles-belgique a:hover{
-    color: #900c27;
+.violences-sexuelles-belgique a:hover {
+  color: #900c27;
 }
 
 /*~ AUTRES ***************/
 
-.violence-sexuelles-autres{
-    width: 90%;
-    padding-top: 5%;
+.violence-sexuelles-autres {
+  width: 90%;
+  padding-top: 5%;
+  margin-left: 3vw;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 /*& ABOUT TOUT AUTRE FORME DE VIOLENCE *********************/
 
-.container-violences-autres{
-    width: 100%;
-    font-family: 'poppinsextralight';
-    padding-top: 5%;
-    padding-bottom: 5%;
-    /* height: 100vh; */
+.container-violences-autres {
+  width: 100%;
+  font-family: "poppinsextralight";
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* height: 100vh; */
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /*~ BELGIQUE **************/
-.violences-autres-belgique{
-    width: 70%;
-    background: whitesmoke;
-    border-radius: 8px;
-    box-shadow: 0 0 0 1px rgba(53, 72, 91, .07), 0 2px 2px rgba(0, 0, 0, .01), 0 4px 4px rgba(0, 0, 0, .02), 0 10px 8px rgba(0, 0, 0, .03), 0 15px 15px rgba(0, 0, 0, .03), 0 30px 30px rgba(0, 0, 0, .04), 0 70px 65px rgba(0, 0, 0, .05);
-    padding: 3%;
+.violences-autres-belgique {
+  width: 70%;
+  background: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(53, 72, 91, 0.07), 0 2px 2px rgba(0, 0, 0, 0.01),
+    0 4px 4px rgba(0, 0, 0, 0.02), 0 10px 8px rgba(0, 0, 0, 0.03),
+    0 15px 15px rgba(0, 0, 0, 0.03), 0 30px 30px rgba(0, 0, 0, 0.04),
+    0 70px 65px rgba(0, 0, 0, 0.05);
+  padding: 3%;
 }
-.title-violence-sexuelle{
-    color: #900c27;
-    text-align: center;
+.title-violence-sexuelle {
+  color: #900c27;
+  text-align: center;
 }
-.title-violence-autre{
-    color: #900c27;
-    text-align: center;
+.title-violence-autre {
+  color: #900c27;
+  text-align: center;
 }
 
-.violences-autres-belgique a{
-    color: #f6c667;
-    font-weight: bold;
-    font-size: 1.2rem;
+.violences-autres-belgique a {
+  color: #f6c667;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
-.violences-autres-belgique a:hover{
-    color: #900c27;
+.violences-autres-belgique a:hover {
+  color: #900c27;
 }
 
 /*~ AUTRES **************/
 
-.violence-autres-autres{
-    width: 90%;
-    padding-top: 5%;
+.violence-autres-autres {
+  width: 90%;
+  padding-top: 5%;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 /*& ABOUT TAIDE PSYCHO-SOCIALE *********************/
-.container-aide-psycho{
-    width: 100%;
-    font-family: 'poppinsextralight';
-    padding-top: 5%;
-    padding-bottom: 5%;
-    /* height: 100vh; */
+.container-aide-psycho {
+  width: 100%;
+  font-family: "poppinsextralight";
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* height: 100vh; */
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /*~ BELGIQUE **************/
 
-.aide-psycho-belgique{
-    width: 70%;
-    background: whitesmoke;
-    border-radius: 8px;
-    box-shadow: 0 0 0 1px rgba(53, 72, 91, .07), 0 2px 2px rgba(0, 0, 0, .01), 0 4px 4px rgba(0, 0, 0, .02), 0 10px 8px rgba(0, 0, 0, .03), 0 15px 15px rgba(0, 0, 0, .03), 0 30px 30px rgba(0, 0, 0, .04), 0 70px 65px rgba(0, 0, 0, .05);
-    padding: 3%;
+.aide-psycho-belgique {
+  width: 70%;
+  background: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(53, 72, 91, 0.07), 0 2px 2px rgba(0, 0, 0, 0.01),
+    0 4px 4px rgba(0, 0, 0, 0.02), 0 10px 8px rgba(0, 0, 0, 0.03),
+    0 15px 15px rgba(0, 0, 0, 0.03), 0 30px 30px rgba(0, 0, 0, 0.04),
+    0 70px 65px rgba(0, 0, 0, 0.05);
+  padding: 3%;
 }
 
-.title-aide-psycho{
-    color: #900c27;
-    text-align: center;
+.title-aide-psycho {
+  color: #900c27;
+  text-align: center;
 }
 
-.aide-psycho-belgique a{
-    color: #f6c667;
-    font-weight: bold;
-    font-size: 1.2rem;
+.aide-psycho-belgique a {
+  color: #f6c667;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
-.aide-psycho-belgique a:hover{
-    color: #900c27;
+.aide-psycho-belgique a:hover {
+  color: #900c27;
 }
-
-
-

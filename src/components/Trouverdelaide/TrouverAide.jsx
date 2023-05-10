@@ -14,28 +14,28 @@ const TrouverAideTab = [
     titre: "Violences Conjugales",
     description: "Où trouver de l'aide en cas de violences conjugales.",
     affiche: "../../assets/images/TrouverAide/aidePsychoSociale.jpg",
-    lien: "/echappesbelles#echappe",
+    lien: "/violencesConjugales#",
   },
   {
     id: 2,
     titre: "Violences Sexuelles",
     description: "Où trouver de l'aide en cas de violences sexuelles",
     affiche: "../../assets/images/TrouverAide/aidePsychoSociale.jpg",
-    lien: "/GaranceFemme#femme",
+    lien: "/violencesSexuelles#",
   },
   {
     id: 3,
     titre: "Tout autre type de violence",
     description: "Où trouver de l'aide en cas de tout autre type de violence.",
     affiche: "../../assets/images/TrouverAide/aidePsychoSociale.jpg",
-    lien: "/GaranceHomme#homme",
+    lien: "/autresTypesViolences#",
   },
   {
     id: 4,
     titre: "Sites d'aide psychosociale",
     description: "Répertoire de site d'aide psycho-sociale.",
     affiche: "../../assets/images/TrouverAide/aidePsychoSociale.jpg",
-    lien: "/Garance55#55",
+    lien: "/aidePsychoSociale#",
   },
 ];
 const TrouverAide = () => {
@@ -46,7 +46,7 @@ const TrouverAide = () => {
       style={{ paddingTop: "40%" }}
     >
       <div>
-        <ScrollAnimation animateIn="fadeInRight">
+        <ScrollAnimation animateIn="rotateInUpRight">
           <div class="container" style={{ marginTop: "-30%", height: "auto" }}>
             <div class="row">
               {TrouverAideTab.map((p) => (

@@ -1,4 +1,5 @@
 import ScrollAnimation from "react-animate-on-scroll";
+
 import ActivitesCard from "./ActivitesCard";
 import React from "react";
 import "./Activites.css";
@@ -51,40 +52,53 @@ const Activites = () => {
 
   return (
     <div className="containerActivites">
-      <div className="cardRow">
-        <ScrollAnimation animateIn="zoomInUp">
-          <div class="container" style={{ marginTop: "-30%", height: "auto" }}>
-            <div class="row">
-              {ActivitesTab1.map((p) => (
-                <ActivitesCard
-                  key={p.id}
-                  titre={p.titre}
-                  description={p.description}
-                  affiche={p.affiche}
-                  lien={p.lien}
-                />
-              ))}
+      <section class="grainy-gradient-intro">
+        <svg height="0" width="0">
+          <filter id="f">
+            <feTurbulence type="fractalNoise" baseFrequency=".5" />
+          </filter>
+        </svg>
+        <div className="cardRow">
+          <ScrollAnimation animateIn="zoomIn">
+            <div
+              class="container"
+              style={{ marginTop: "-30%", height: "auto" }}
+            >
+              <div class="row">
+                {ActivitesTab1.map((p) => (
+                  <ActivitesCard
+                    key={p.id}
+                    titre={p.titre}
+                    description={p.description}
+                    affiche={p.affiche}
+                    lien={p.lien}
+                  />
+                ))}
+              </div>
             </div>
-          </div>
-        </ScrollAnimation>
-      </div>
-      <div className="cardRow">
-        <ScrollAnimation animateIn="fadeInRight">
-          <div class="container" style={{ marginTop: "-30%", height: "auto" }}>
-            <div class="row">
-              {ActivitesTab2.map((p) => (
-                <ActivitesCard
-                  key={p.id}
-                  titre={p.titre}
-                  description={p.description}
-                  affiche={p.affiche}
-                  lien={p.lien}
-                />
-              ))}
+          </ScrollAnimation>
+        </div>
+        <div className="cardRow">
+          <ScrollAnimation animateIn="zoomIn">
+            <div
+              class="container"
+              style={{ marginTop: "-30%", height: "auto" }}
+            >
+              <div class="row">
+                {ActivitesTab2.map((p) => (
+                  <ActivitesCard
+                    key={p.id}
+                    titre={p.titre}
+                    description={p.description}
+                    affiche={p.affiche}
+                    lien={p.lien}
+                  />
+                ))}
+              </div>
             </div>
-          </div>
-        </ScrollAnimation>
-      </div>
+          </ScrollAnimation>
+        </div>
+      </section>
     </div>
   );
 };

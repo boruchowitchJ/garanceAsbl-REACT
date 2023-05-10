@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 359 232">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cccfff;
+      }
+
+      .cls-2 {
+        fill: #006e23;
+        font-family: ArimaKoshi-Bold, 'Arima Koshi';
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: .09em;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <rect class="cls-1" width="359" height="232"/>
+    <text class="cls-2" transform="translate(103.7 134.3)"><tspan x="0" y="0">HELP</tspan></text>
+  </g>
+</svg>
