@@ -53,12 +53,12 @@ const Activites = () => {
 
   return (
     <div className="containerActivites">
-      <section class="grainy-gradient-intro">
-        <svg height="0" width="0">
-          <filter id="f">
-            <feTurbulence type="fractalNoise" baseFrequency=".5" />
-          </filter>
-        </svg>
+      <section>
+        <img
+          className="backgroundActivity"
+          src="./assets/images/TrouverAide/abstract.svg"
+          alt="background"
+        />
         <div className="cardRow">
           <ScrollAnimation animateIn="zoomIn">
             <div

@@ -50,12 +50,11 @@ const PourVousList = () => {
 
   return (
     <div>
-      <div class="hero-image-pourvous">
-        <div
-          class="mask"
-          style={{ backgroundcolor: "rgba(0, 0, 0, 0.0)" }}
-        ></div>
-      </div>
+      <img
+        className="backgroundActivity"
+        src="./assets/images/bgpourvous.svg"
+        alt="background"
+      />
 
       <section class="grainy-gradient-intro">
         <svg height="0" width="0">
@@ -65,7 +64,10 @@ const PourVousList = () => {
         </svg>
 
         <ScrollAnimation animateIn="fadeInLeft">
-          <div class="container col-8" style={{ marginTop: "-30%", height: "auto" }}>
+          <div
+            class="container col-8"
+            style={{ marginTop: "3%", height: "auto" }}
+          >
             <div class="row">
               {pourvousliste.map((p) => (
                 <PourVousCard

@@ -1,13 +1,12 @@
 import React from "react";
 const QuisommesNous = () => {
   return (
-    <div>    
-      <div class="hero-image-qui">
-        <div
-          class="mask"
-          style={{ backgroundcolor: "rgba(0, 0, 0, 0.0)" }}
-        ></div>
-      </div>
+    <div>
+      <img
+        className="backgroundActivity"
+        src="./assets/images/bgquisommenous.svg"
+        alt="background"
+      />
       <section class="grainy-gradient-intro">
         <svg height="0" width="0">
           <filter id="f">
@@ -17,7 +16,7 @@ const QuisommesNous = () => {
         <div
           id="QuisommesNous"
           className="container_pourvous col-md-6"
-          style={{ height: "auto", marginTop: "-26%",marginLeft: "25% "}}
+          style={{ height: "auto", marginTop: "12%", marginLeft: "25% " }}
         >
           <h1> Garance ASBL</h1>
           <div className="containersmall">

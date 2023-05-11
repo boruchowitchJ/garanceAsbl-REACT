@@ -3,8 +3,11 @@
   padding-top: 10%;
   height: 150vh;
   background-color: whitesmoke;
-
-  background-image: url("../../../public/assets/images/TrouverAide/SVG/SVG/abstract.svg");
+}
+.backgroundActivity {
+  position: absolute;
+  margin-top: -12%;
+  opacity: 40%;
 }
 .cardRow {
   margin-top: 30%;
